@@ -82,7 +82,7 @@
     function gtag(){dataLayer.push(arguments);}
     gtag('consent', 'default', { 'analytics_storage': 'denied', 'wait_for_update': 500 });
   </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MEGSW9F8WL"></script>
+  <script async src="wildlife/image.png"></script>
   <script>
     gtag('js', new Date());
     gtag('config', 'G-MEGSW9F8WL', { 'send_page_view': false });
@@ -541,7 +541,7 @@
     #hero-intro-img {
       position: absolute;
       inset: 0;
-      background-image: url('wildlife/foto2.jpeg');
+      background-image: url("wildlife/foto2.jpeg");
       background-size: cover;
       background-position: center 20%;
       filter: brightness(1.7);   /* JS eases this back to 1.0 as you scroll */
@@ -2594,7 +2594,7 @@
       .hero-tagline { color: rgba(255,255,255,0.8); max-width: 100%; }
       .hero-cta { color: rgba(255,255,255,0.88); border-color: rgba(255,255,255,0.4); }
       .hero-cta:hover { background: rgba(255,255,255,0.15); color: #fff; }
-      .hero-cta--primary { background: #fff; color: var(--text-primary); border-color: #fff; }
+      .hero-cta--primary { background: #fff; color:#2d2d2e ; border-color: #fff; }
       .hero-cta-row { justify-content: center; gap: 0.6rem; margin-top: 1.75rem; }
       .hero-story-teaser { border-top-color: rgba(255,255,255,0.2); }
       .hst-label, .hst-title, .hst-location, .hst-arrow { color: rgba(255,255,255,0.6); }
@@ -2800,17 +2800,14 @@
   <nav id="nav" data-theme="dark" role="navigation" aria-label="Main navigation">
 
     <div class="nav-logo" onclick="showView('home')" role="link" aria-label="John's Photography World — home" tabindex="0">
-      <svg class="logo-mark" width="30" height="30" viewBox="0 0 30 30" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" aria-hidden="true">
-        <circle cx="15" cy="15" r="13"/>
-        <circle cx="15" cy="15" r="5"/>
-        <line x1="15" y1="10" x2="12.5" y2="2"/>
-        <line x1="15" y1="10" x2="17.5" y2="2"/>
-        <line x1="19.3" y1="12.5" x2="27.5" y2="10"/>
-        <line x1="19.3" y1="17.5" x2="27.5" y2="20"/>
-        <line x1="15" y1="20" x2="17.5" y2="28"/>
-        <line x1="15" y1="20" x2="12.5" y2="28"/>
-        <line x1="10.7" y1="17.5" x2="2.5" y2="20"/>
-        <line x1="10.7" y1="12.5" x2="2.5" y2="10"/>
+      <svg class="logo-mark" width="32" height="32" viewBox="0 0 32 32" fill="none"
+stroke="currentColor" stroke-width="1.5"
+stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="16" cy="16" r="14"/>
+
+        <path d="M16 8L19 16L16 24L13 16Z"/>
+
+        <circle cx="16" cy="16" r="2"/>
       </svg>
       <span class="logo-text">
         <span class="logo-name">K · P · W</span>
@@ -2883,7 +2880,7 @@
     </button>
 
     <audio id="bg-music" loop preload="none">
-      <source src="Music/Children%20of%20Mashatu_REMIX.mp3" type="audio/mpeg">
+      <source src="wildlife/image.png" type="audio/mpeg">
     </audio>
 
     <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
@@ -2944,10 +2941,10 @@
       <div id="hero-intro">
         <div id="hero-intro-img" aria-hidden="true"></div>
         <div id="hero-intro-mask">
-          <div id="hero-intro-slogan">Travel moves you. Journeys transform you</div>
+          <div id="hero-intro-slogan">Every Journeys Had a Story</div>
         </div>
         <div id="hero-intro-solid" aria-hidden="true">
-          <div id="hero-intro-slogan-solid">Travel moves you. Journeys transform you</div>
+          <div id="hero-intro-slogan-solid">Every Journeys Had a Story</div>
         </div>
       </div>
 
@@ -2964,19 +2961,15 @@
           Alam Semesta Dan Segala Isinya
         </p>
         <div class="hero-cta-row">
-          <a href="wildlife/index.html" onclick="showView('wildlife')" class="hero-cta hero-cta--primary">
+          <a onclick="showView('wildlife')" class="hero-cta hero-cta--primary">
             Wildlife Portfolio <span class="hero-cta__arrow">→</span>
           </a>
-          <a href="fieldnotes/index.html" onclick="showView('stories')" class="hero-cta">
+          <a onclick="showView('stories')" class="hero-cta">
             Field Notes <span class="hero-cta__arrow">→</span>
           </a>
         </div>
         <div class="hero-story-teaser" onclick="showView('story-botswana')" role="button" tabindex="0" aria-label="Read: Tracking Brown Hyenas in the Tuli Block">
-          <span class="hst-label">Latest Field Note</span>
-          <span class="hst-divider"></span>
-          <span class="hst-title">Tracking Brown Hyenas in the Tuli Block · Camp Serolo</span>
-          <span class="hst-location">Camp Serolo · Botswana · June 2025</span>
-          <span class="hst-arrow">→</span>
+          <span class="hst-label">Visual stories from wild places, quiet streets, and journeys</span>
         </div>
       </div>
     </section>
@@ -2986,15 +2979,15 @@
     <section class="fc-section" aria-label="Featured Collections">
       <div class="fc-inner">
         <header class="fc-header">
-          <p class="fc-eyebrow">Collections</p>
-          <h2 class="fc-heading">Featured Collections</h2>
-          <p class="fc-intro-text">Curated visual stories from wild places, quiet streets, and journeys across continents.</p>
+          <p class="fc-eyebrow">Journeys</p>
+          <h2 class="fc-heading">Photho Collections</h2>
+          <p class="fc-intro-text">Alam Semesta Dan Segala Isinya.</p>
         </header>
         <div class="fc-grid">
 
           <!-- Card 1 — Brown Hyenas -->
-          <a href="fieldnotes/brown-hyenas-tuli-block/index.html" onclick="showView('story-botswana')" class="fc-card" aria-label="Read: Brown Hyenas of the Tuli Block">
-            <img class="fc-card__img" src="FieldNotes/Botswana/card.jpg" alt="Brown Hyena, Tuli Block, Botswana" loading="lazy" />
+          <a onclick="showView('story-botswana')" class="fc-card" aria-label="Read: Brown Hyenas of the Tuli Block">
+            <img class="fc-card__img" src="wildlife/image.png" alt="Brown Hyena, Tuli Block, Botswana" loading="lazy" />
             <div class="fc-card__overlay"></div>
             <div class="fc-card__body">
               <p class="fc-card__tag">Wildlife · Botswana</p>
@@ -3010,8 +3003,8 @@
           </a>
 
           <!-- Card 2 — Big Cats -->
-          <a href="wildlife/big-cats/index.html" onclick="showView('bigcats')" class="fc-card" aria-label="View: Big Cats of Africa">
-            <img class="fc-card__img" src="Collections/BigCats/Leop_portrait.jpg" alt="Leopard portrait, Botswana" loading="lazy" />
+          <a onclick="showView('bigcats')" class="fc-card" aria-label="View: Big Cats of Africa">
+            <img class="fc-card__img" src="wildlife/image.png" alt="Leopard portrait, Botswana" loading="lazy" />
             <div class="fc-card__overlay"></div>
             <div class="fc-card__body">
               <p class="fc-card__tag">Wildlife · Africa</p>
@@ -3027,8 +3020,8 @@
           </a>
 
           <!-- Card 3 — Birds of the Pantanal -->
-          <a href="wildlife/birds-of-pantanal/index.html" onclick="showView('pantanal')" class="fc-card" aria-label="View: Birds of the Pantanal">
-            <img class="fc-card__img" src="Collections/BirdsOfPantanal/Brazil-1.jpg" alt="Bird photography, Pantanal, Brazil" loading="lazy" />
+          <a onclick="showView('pantanal')" class="fc-card" aria-label="View: Birds of the Pantanal">
+            <img class="fc-card__img" src="wildlife/image.png" alt="Bird photography, Pantanal, Brazil" loading="lazy" />
             <div class="fc-card__overlay"></div>
             <div class="fc-card__body">
               <p class="fc-card__tag">Bird Photography · Brazil</p>
@@ -3044,8 +3037,8 @@
           </a>
 
           <!-- Card 4 — Old Delhi -->
-          <a href="street/old-delhi/index.html" onclick="showView('street-india')" class="fc-card" aria-label="View: Streets of Old Delhi">
-            <img class="fc-card__img" src="Street/India/India_1.jpg" alt="Streets of Old Delhi, India" loading="lazy" />
+          <a onclick="showView('street-india')" class="fc-card" aria-label="View: Streets of Old Delhi">
+            <img class="fc-card__img" src="wildlife/image.png" alt="Streets of Old Delhi, India" loading="lazy" />
             <div class="fc-card__overlay"></div>
             <div class="fc-card__body">
               <p class="fc-card__tag">Street Photography · India</p>
@@ -3061,8 +3054,8 @@
           </a>
 
           <!-- Card 5 — In the Land of Cats -->
-          <a href="fieldnotes/land-of-cats-mashatu/index.html" onclick="showView('story-mashatu')" class="fc-card" aria-label="Read: In the Land of Cats — A Mother, a Cub and a Kill at Mashatu">
-            <img class="fc-card__img" src="FieldNotes/Mashatu/card.jpg" alt="Leopard, Mashatu, Northern Tuli Block, Botswana" loading="lazy" />
+          <a onclick="showView('story-mashatu')" class="fc-card" aria-label="Read: In the Land of Cats — A Mother, a Cub and a Kill at Mashatu">
+            <img class="fc-card__img" src="wildlife/image.png" alt="Leopard, Mashatu, Northern Tuli Block, Botswana" loading="lazy" />
             <div class="fc-card__overlay"></div>
             <div class="fc-card__body">
               <p class="fc-card__tag">Field Note · Mashatu</p>
@@ -3078,8 +3071,8 @@
           </a>
 
           <!-- Card 6 — Searching for Jaguar -->
-          <a href="fieldnotes/searching-for-jaguar-pantanal/index.html" onclick="showView('story-pantanal')" class="fc-card" aria-label="Read: In Search of the Onça Pintada — Pantanal, Brazil">
-            <img class="fc-card__img" src="FieldNotes/Pantanal/Brazil-66.jpg" alt="Blue-and-yellow macaw, Pantanal, Brazil" loading="lazy" />
+          <a onclick="showView('story-pantanal')" class="fc-card" aria-label="Read: In Search of the Onça Pintada — Pantanal, Brazil">
+            <img class="fc-card__img" src="wildlife/image.png" alt="Blue-and-yellow macaw, Pantanal, Brazil" loading="lazy" />
             <div class="fc-card__overlay"></div>
             <div class="fc-card__body">
               <p class="fc-card__tag">Field Note · Brazil</p>
@@ -3104,20 +3097,20 @@
         <p class="gallery-eyebrow">About the photography</p>
         <h2 class="home-intro__title">Visual stories <em>from the wild</em></h2>
         <div class="home-intro__body">
-          <p>johnsphotography.world is the personal portfolio of <strong>John Janson</strong> — a wildlife and travel photographer with over 25 years of experience working across Africa, Asia, South America and Europe. The work covers wildlife photography, safari photography, bird photography, street photography and travel photography from more than 60 countries.</p>
-          <p>John Janson's <a href="wildlife/index.html" onclick="showView('wildlife')">wildlife photography</a> focuses on authentic encounters in natural habitats — no staging, no baiting, no shortcuts. The collection includes safari images from Botswana, Uganda, Kenya and South Africa, as well as wildlife photography from Brazil and India. Subjects range from apex predators such as leopards and lions to rarely photographed species like the brown hyena, documented over three nights in the Tuli Block of eastern Botswana.</p>
-          <p>Bird photography is a consistent thread running through the work. From bee-eaters and fish eagles in the African bush to colourful forest species in the Brazilian Pantanal, bird photography requires the same patience and stillness that defines John Janson's approach across all subjects. The best frames come from time spent in the field — watching behaviour, reading light, and waiting for the moment that makes the image worth keeping.</p>
-          <p>The <a href="fieldnotes/index.html" onclick="showView('stories')">Field Notes</a> section collects longer visual stories from individual expeditions — the kind of photography that goes beyond a single image. The first published story, <em>Tracking Brown Hyenas in the Tuli Block</em>, documents a multi-night safari at Camp Serolo in Botswana's Northern Tuli Game Reserve in June 2025, combining wildlife photography, field notes and location detail into a single cinematic piece.</p>
-          <p><a href="travel/index.html" onclick="showView('travel')">Travel photography</a> runs alongside the wildlife work, documenting the human world at the edges of wild places — small towns, local markets, quiet roads between reserves. <a href="street/index.html" onclick="showView('street')">Street photography</a> from Bangkok, India and Brazil adds a further dimension, capturing the energy and geometry of cities as they actually are.</p>
-          <p>Selected fine art prints from John Janson's wildlife and travel photography are available on request. Licensing enquiries for editorial, conservation or commercial use are welcome. <a href="about/index.html" onclick="showView('about')">Get in touch</a> to discuss prints, licensing or collaboration on projects related to wildlife conservation or responsible travel storytelling.</p>
+          <p>Kirnature Photography World is a personal photography journal dedicated to capturing the beauty of nature, wildlife, landscapes, and everyday life through honest visual storytelling. Every photograph represents a quiet moment observed with patience, curiosity, and respect for the world around us.</p>
+          <p>Rather than chasing perfect scenes, Kirnature focuses on genuine experiences found in forests, mountains, rivers, villages, and the natural environments where wildlife lives freely. Each journey is an opportunity to witness moments that often go unnoticed—morning mist drifting through the trees, sunlight filtering across a valley, or the silent presence of an animal in its natural habitat.</p>
+          <p>The collection is organized into several themes, including Nature, Wildlife, Animals, and Society. Together, these galleries reflect the connection between people and the environment, showing that every place has its own atmosphere, every creature has its own story, and every journey leaves a lasting impression.</p>
+          <p>Beyond photography, Kirnature is also a space for written reflections. Many photographs are accompanied by short journal entries that share the emotions, memories, and experiences behind each image. These stories are intended to invite visitors not only to see the photographs, but also to feel the moments they represent.</p>
+          <p>Every image featured on Kirnature is created with respect for nature and wildlife. The goal is to document authentic moments without disturbing animals or altering their natural behavior, allowing every photograph to remain a truthful record of the world as it exists.</p>
+          <p>Kirnature Photography World continues to grow with every journey, every sunrise, and every new destination. It is a place to celebrate the beauty of the natural world, inspire appreciation for wildlife, and preserve meaningful moments through photography—one frame at a time.</p>
         </div>
         <nav class="home-intro__links" aria-label="Explore the site">
-          <a href="wildlife/index.html" onclick="showView('wildlife')">Wildlife gallery</a>
-          <a href="street/index.html"   onclick="showView('street')"  >Street photography</a>
-          <a href="travel/index.html"   onclick="showView('travel')"  >Travel photography</a>
-          <a href="fieldnotes/index.html"  onclick="showView('stories')" >Field Notes &amp; safari stories</a>
-          <a href="about/index.html"    onclick="showView('about')"   >About John</a>
-          <a href="about/index.html"    onclick="showView('about')"   >Contact &amp; prints</a>
+          <a onclick="showView('wildlife')">Wildlife gallery</a>
+          <a onclick="showView('street')"  >Street photography</a>
+          <a onclick="showView('travel')"  >Travel photography</a>
+          <a onclick="showView('stories')" >Field Notes &amp; safari stories</a>
+          <a onclick="showView('about')"   >About John</a>
+          <a onclick="showView('about')"   >Contact &amp; prints</a>
         </nav>
       </div>
     </section>
@@ -3132,7 +3125,7 @@
 
       <div class="about-portrait-col">
         <img
-          src="JohnPhoto/John_leica_bw.jpg"
+          src="wildlife/image.png"
           alt="John Janson — wildlife and travel photographer"
           class="about-portrait-img"
           loading="lazy"
@@ -3215,45 +3208,45 @@
       <p class="gallery-desc">Remote wilderness, apex predators, and the quiet moments between — captured across six continents.</p>
     </div>
     <div class="gallery-masonry" role="list">
-      <div class="gallery-item" role="listitem"><img src="Wildlife/Brazil-15.jpg"                                                    alt="Wildlife in the Brazilian Pantanal wetlands" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Wildlife/Brazil-20.jpg"                                                    alt="Wildlife encounter in Brazil, natural light" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Wildlife/Brazil-26.jpg"                                                    alt="Bird photography in the Brazilian rainforest" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Wildlife/Brazil-4.jpg"                                                     alt="Wildlife photography from the Brazilian Pantanal" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Wildlife/Brazil-52.jpg"                                                    alt="South American wildlife in natural habitat" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Wildlife/Brazil-65.jpg"                                                    alt="Wildlife photography during golden hour in Brazil" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Wildlife/BrownHayena_2.jpg"                                                alt="Brown hyena in the Tuli Wilderness, Botswana, at night" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BigCats/Botswana_2026-3.jpg" alt="Big cat in the Botswana bush, Tuli Block 2026" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BigCats/Botswana_2026-4.jpg" alt="African big cat, Botswana 2026" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BigCats/Botswana_2026-5.jpg" alt="Big cat portrait, Botswana wildlife photography 2026" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BigCats/Botswana_2026-6.jpg" alt="African predator in natural habitat, Botswana 2026" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BigCats/Botswana_2026-7.jpg" alt="Big cat in golden light, Tuli Block 2026" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BigCats/Botswana_2026-8.jpg" alt="African big cat, natural behaviour, Botswana 2026" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BigCats/Botswana_2026-9.jpg" alt="Big cat wildlife photography, Botswana 2026" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BigCats/Botswana_2026-28.jpg" alt="Big cat in Botswana, 2026 safari" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Wildlife/DSC03491-Enhanced-NR.jpg"                                         alt="Wildlife photography in Africa, natural light" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Wildlife/DSC03514.jpg"                                                     alt="African wildlife encounter during safari" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Wildlife/DSC03888-Edit.jpg"                                                alt="Safari wildlife photography, Africa" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Wildlife/DSC03905.jpg"                                                     alt="Wildlife in the African bush, natural behaviour" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Wildlife/DSC03930.jpg"                                                     alt="Wildlife photography during an African safari" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Wildlife/DSC04402.jpg"                                                     alt="African animal in its natural environment" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Wildlife/DSC04592.jpg"                                                     alt="Wildlife photography from an African game reserve" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Wildlife/DSC04753.jpg"                                                     alt="Bird or wildlife encounter in natural habitat" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Wildlife/DSC04900.jpg"                                                     alt="Safari wildlife in soft morning light, Africa" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Wildlife/DSC07438.jpg"                                                     alt="Wildlife photography in India, natural light" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Wildlife/DSC07472-DeepPRIME.jpg"                                alt="Indian wildlife in its natural forest environment" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Wildlife/DSC07472.jpg"                                                     alt="Wildlife encounter in a natural reserve, India" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Wildlife/DSC07509-DeepPRIME.jpg"                                alt="Tiger or wildlife photography in an Indian forest" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Wildlife/E90DB79D-864B-4240-8F83-78D0091C5E61_4_5005_c.jpg"               alt="Wildlife photography in natural light" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Wildlife/G2.jpg"                                                           alt="Wildlife in natural habitat, Africa" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Wildlife/H1_INSTA.jpg"                                                     alt="Wildlife portrait photography in natural surroundings" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Wildlife/Leop_portrait.jpg"                                                alt="Leopard portrait in soft natural light, Africa" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Wildlife/Lion_Morning.jpg"                                                 alt="Lion resting in golden morning light on an African savanna" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Wildlife/Lioness_2.jpg"                                                    alt="Lioness in dry grassland during an African safari" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Wildlife/Botswana_2026-2.jpg"                                              alt="Wildlife, Tuli Wilderness, Botswana 2026" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Wildlife/Botswana_2026-39.jpg"                                             alt="Wildlife photography, Northern Tuli Block, Botswana 2026" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Wildlife/Botswana_2026-73.jpg"                                             alt="Safari wildlife, Botswana 2026" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Wildlife/Botswana_2026-75.jpg"                                             alt="Wildlife encounter, Tuli Block, Botswana 2026" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Wildlife/Botswana_2026-77.jpg"                                             alt="African wildlife, Botswana 2026" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                                   alt="Wildlife in the Brazilian Pantanal wetlands" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                                    alt="Wildlife encounter in Brazil, natural light" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                                    alt="Bird photography in the Brazilian rainforest" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                                     alt="Wildlife photography from the Brazilian Pantanal" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                                    alt="South American wildlife in natural habitat" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                                    alt="Wildlife photography during golden hour in Brazil" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                                alt="Brown hyena in the Tuli Wilderness, Botswana, at night" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Big cat in the Botswana bush, Tuli Block 2026" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="African big cat, Botswana 2026" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Big cat portrait, Botswana wildlife photography 2026" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="African predator in natural habitat, Botswana 2026" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Big cat in golden light, Tuli Block 2026" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="African big cat, natural behaviour, Botswana 2026" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Big cat wildlife photography, Botswana 2026" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Big cat in Botswana, 2026 safari" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                         alt="Wildlife photography in Africa, natural light" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                                     alt="African wildlife encounter during safari" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                                alt="Safari wildlife photography, Africa" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                                     alt="Wildlife in the African bush, natural behaviour" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                                     alt="Wildlife photography during an African safari" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                                     alt="African animal in its natural environment" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                                     alt="Wildlife photography from an African game reserve" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                                     alt="Bird or wildlife encounter in natural habitat" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                                     alt="Safari wildlife in soft morning light, Africa" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                                     alt="Wildlife photography in India, natural light" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                alt="Indian wildlife in its natural forest environment" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                                     alt="Wildlife encounter in a natural reserve, India" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                alt="Tiger or wildlife photography in an Indian forest" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"               alt="Wildlife photography in natural light" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                                           alt="Wildlife in natural habitat, Africa" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                                     alt="Wildlife portrait photography in natural surroundings" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                                alt="Leopard portrait in soft natural light, Africa" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                                 alt="Lion resting in golden morning light on an African savanna" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                                    alt="Lioness in dry grassland during an African safari" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                              alt="Wildlife, Tuli Wilderness, Botswana 2026" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                             alt="Wildlife photography, Northern Tuli Block, Botswana 2026" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                             alt="Safari wildlife, Botswana 2026" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                             alt="Wildlife encounter, Tuli Block, Botswana 2026" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                             alt="African wildlife, Botswana 2026" loading="lazy" /></div>
     </div>
   </div>
 
@@ -3267,24 +3260,24 @@
       <p class="gallery-desc">Leopards, lions, cheetahs — Africa's apex predators in their natural habitat. No staging, no baiting, no shortcuts.</p>
     </div>
     <div class="gallery-masonry" role="list">
-      <div class="gallery-item" role="listitem"><img src="Collections/BigCats/Botswana_2026-3.jpg"                                     alt="Big cat in the Botswana bush, 2026" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BigCats/Botswana_2026-4.jpg"                                     alt="African big cat, Botswana 2026" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BigCats/Botswana_2026-5.jpg"                                     alt="Big cat portrait, Botswana wildlife photography" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BigCats/Botswana_2026-6.jpg"                                     alt="African predator in natural habitat, Botswana" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BigCats/Botswana_2026-7.jpg"                                     alt="Big cat in golden hour light, Botswana" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BigCats/Botswana_2026-8.jpg"                                     alt="African big cat, natural behaviour, Botswana 2026" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BigCats/Botswana_2026-9.jpg"                                     alt="Big cat wildlife photography, Botswana 2026" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BigCats/Botswana_2026-28.jpg"                                    alt="Big cat in Botswana, 2026 safari" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BigCats/DSC01710.jpg"                                            alt="Big cat wildlife photography in Africa" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BigCats/DSC01716-Edit.jpg"                                       alt="African big cat, edited wildlife photograph" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BigCats/DSC01931.jpg"                                            alt="Big cat encounter in the African bush" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BigCats/E90DB79D-864B-4240-8F83-78D0091C5E61_4_5005_c.jpg"     alt="African predator portrait, wildlife photography" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BigCats/Leop_portrait.jpg"                                       alt="Leopard portrait in soft natural light, Africa" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BigCats/Lion1.jpg"                                               alt="Lion in the African savanna, wildlife photography" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BigCats/Lion_Morning.jpg"                                        alt="Lion in golden morning light, African safari" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BigCats/Lioness_2.jpg"                                           alt="Lioness in dry grassland, African wildlife" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="FieldNotes/Mashatu/Mashatu_8.jpg"                                             alt="Leopard, Mashatu Tent Camp, Northern Tuli Block, Botswana" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="FieldNotes/Mashatu/Mashatu_9.jpg"                                             alt="Leopard, Northern Tuli Block, Botswana" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                     alt="Big cat in the Botswana bush, 2026" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                     alt="African big cat, Botswana 2026" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                     alt="Big cat portrait, Botswana wildlife photography" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                     alt="African predator in natural habitat, Botswana" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                     alt="Big cat in golden hour light, Botswana" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                     alt="African big cat, natural behaviour, Botswana 2026" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                     alt="Big cat wildlife photography, Botswana 2026" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                    alt="Big cat in Botswana, 2026 safari" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                            alt="Big cat wildlife photography in Africa" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                       alt="African big cat, edited wildlife photograph" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                            alt="Big cat encounter in the African bush" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"     alt="African predator portrait, wildlife photography" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                       alt="Leopard portrait in soft natural light, Africa" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                               alt="Lion in the African savanna, wildlife photography" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                        alt="Lion in golden morning light, African safari" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                           alt="Lioness in dry grassland, African wildlife" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                             alt="Leopard, Mashatu Tent Camp, Northern Tuli Block, Botswana" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                             alt="Leopard, Northern Tuli Block, Botswana" loading="lazy" /></div>
     </div>
   </div>
 
@@ -3298,48 +3291,48 @@
       <p class="gallery-desc">The Pantanal holds one of the greatest concentrations of wildlife on earth — and its birdlife is extraordinary. Hyacinth macaws, jabiru storks, toucans, kingfishers, herons. These images were made in the Brazilian wetlands during peak season, in natural light, with no bait and no disturbance.</p>
     </div>
     <div class="gallery-masonry" role="list">
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-1.jpg"  alt="Bird photography in the Brazilian Pantanal wetlands" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-3.jpg"  alt="Pantanal bird in natural habitat, Brazil" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-4.jpg"  alt="Wildlife photography, Pantanal, Brazil" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-9.jpg"  alt="Pantanal bird species, Brazilian wetlands" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-12.jpg" alt="Bird in golden light, Pantanal Brazil" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-18.jpg" alt="Pantanal birdlife, natural light photography" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-19.jpg" alt="Bird portrait in the Pantanal, Brazil" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-21.jpg" alt="Pantanal wetland bird, Brazil wildlife photography" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-22.jpg" alt="Bird photography, Brazilian Pantanal" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-32.jpg" alt="Pantanal bird in flight or at rest, Brazil" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-34.jpg" alt="Wildlife bird photograph, Pantanal wetlands" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-39.jpg" alt="Bird species of the Brazilian Pantanal" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-41.jpg" alt="Pantanal bird, natural behaviour, Brazil" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-43.jpg" alt="Bird photography in natural wetland habitat, Brazil" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-44.jpg" alt="Brazilian Pantanal birdlife, wildlife photography" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-46.jpg" alt="Pantanal bird close-up, Brazil" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-48.jpg" alt="Bird in the Pantanal, Brazil wildlife" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-49.jpg" alt="Pantanal wildlife photography, Brazil birds" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-50.jpg" alt="Bird portrait, Pantanal wetlands Brazil" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-51.jpg" alt="Brazilian bird species, Pantanal photography" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-53.jpg" alt="Bird in golden wetland light, Pantanal Brazil" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-54.jpg" alt="Pantanal bird, natural habitat photography" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-56.html" alt="Wildlife photography in the Pantanal, Brazil" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-58.jpg" alt="Bird species in the Brazilian Pantanal" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-60.jpg" alt="Pantanal bird photography, natural light Brazil" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-61.jpg" alt="Brazilian wetland bird, Pantanal wildlife" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-65.jpg" alt="Bird in the Pantanal, wildlife photography Brazil" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-66.jpg" alt="Pantanal birdlife, Brazil wildlife photography" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-68.jpg" alt="Bird portrait in natural wetland habitat, Pantanal" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-69.jpg" alt="Bird species in the Pantanal wetlands, Brazil" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-70.jpg" alt="Pantanal bird photography, Brazil" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-71.jpg" alt="Bird in flight or perched, Pantanal Brazil" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-72.jpg" alt="Brazilian bird, Pantanal wetlands photography" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-73.jpg" alt="Pantanal wildlife, bird photography Brazil" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-74.jpg" alt="Bird in natural light, Pantanal Brazil" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-78.jpg" alt="Pantanal bird species, Brazilian wildlife photography" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-82.jpg" alt="Bird portrait in the Pantanal, Brazil" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-87.jpg" alt="Pantanal wetland bird, natural habitat Brazil" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-89.jpg" alt="Bird photography, Pantanal Brazil wildlife" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-90.jpg" alt="Pantanal bird in golden light, Brazil" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-91.jpg" alt="Brazilian Pantanal bird, wildlife photography" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/BirdsOfPantanal/Brazil-92.jpg" alt="Bird species of the Pantanal, Brazil wildlife" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"  alt="Bird photography in the Brazilian Pantanal wetlands" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"  alt="Pantanal bird in natural habitat, Brazil" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"  alt="Wildlife photography, Pantanal, Brazil" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"  alt="Pantanal bird species, Brazilian wetlands" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Bird in golden light, Pantanal Brazil" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Pantanal birdlife, natural light photography" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Bird portrait in the Pantanal, Brazil" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Pantanal wetland bird, Brazil wildlife photography" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Bird photography, Brazilian Pantanal" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Pantanal bird in flight or at rest, Brazil" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Wildlife bird photograph, Pantanal wetlands" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Bird species of the Brazilian Pantanal" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Pantanal bird, natural behaviour, Brazil" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Bird photography in natural wetland habitat, Brazil" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Brazilian Pantanal birdlife, wildlife photography" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Pantanal bird close-up, Brazil" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Bird in the Pantanal, Brazil wildlife" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Pantanal wildlife photography, Brazil birds" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Bird portrait, Pantanal wetlands Brazil" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Brazilian bird species, Pantanal photography" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Bird in golden wetland light, Pantanal Brazil" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Pantanal bird, natural habitat photography" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Wildlife photography in the Pantanal, Brazil" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Bird species in the Brazilian Pantanal" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Pantanal bird photography, natural light Brazil" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Brazilian wetland bird, Pantanal wildlife" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Bird in the Pantanal, wildlife photography Brazil" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Pantanal birdlife, Brazil wildlife photography" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Bird portrait in natural wetland habitat, Pantanal" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Bird species in the Pantanal wetlands, Brazil" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Pantanal bird photography, Brazil" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Bird in flight or perched, Pantanal Brazil" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Brazilian bird, Pantanal wetlands photography" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Pantanal wildlife, bird photography Brazil" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Bird in natural light, Pantanal Brazil" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Pantanal bird species, Brazilian wildlife photography" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Bird portrait in the Pantanal, Brazil" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Pantanal wetland bird, natural habitat Brazil" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Bird photography, Pantanal Brazil wildlife" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Pantanal bird in golden light, Brazil" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Brazilian Pantanal bird, wildlife photography" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png" alt="Bird species of the Pantanal, Brazil wildlife" loading="lazy" /></div>
     </div>
   </div>
 
@@ -3353,21 +3346,21 @@
       <p class="gallery-desc">Geometry of shadows, the blur of strangers, and the quiet humanity found at every corner of every city.</p>
     </div>
     <div class="gallery-masonry" role="list">
-      <div class="gallery-item" role="listitem"><img src="Street/083A4075-2E2D-40E7-8655-EFB61BA5C964_1_105_c.jpg"  alt="Street photography in Bangkok, Thailand" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Street/12021868-C710-45BF-B02F-A4E8FD78E4DF.jpg"           alt="Urban street scene with natural light" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Street/17A91638-4269-41FE-94BE-6AF1F523CCDE_4_5005_c.jpg"  alt="Street photography capturing everyday city life" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Street/265E8E05-84F1-4F3E-AE60-C088623CDE78.jpg"            alt="Candid street photography, geometry and shadow" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Street/BB1BB099-49BE-4316-9822-B1D34C271330_1_105_c.jpg"   alt="Street scene with people and natural urban light" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Street/Bangkok-(193-of-259).jpg"                            alt="Night street photography in Bangkok, Thailand" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Street/Bangkok-(241-of-259).jpg"                            alt="Bangkok street life, people and motion" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Street/DSC05936.jpg"                                        alt="Street photography in India, candid human moment" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Street/DSC06064.jpg"                                        alt="Street scene in India with natural light" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Street/DSC06094.jpg"                                        alt="Candid street photography in an Asian city" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Street/DSC06111-Edit.jpg"                                   alt="Street photography, light and shadow in an urban setting" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Street/DSC06143-2.jpg"                                      alt="Street portrait or scene, natural available light" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Street/DSC06290.jpg"                                        alt="Urban street photography, people in motion" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Street/IMG_2762.jpg"                                        alt="Street photography, city life captured candidly" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Street/IMG_4037.jpg"                                        alt="Street scene with human element and natural light" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"  alt="Street photography in Bangkok, Thailand" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"           alt="Urban street scene with natural light" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"  alt="Street photography capturing everyday city life" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"            alt="Candid street photography, geometry and shadow" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"   alt="Street scene with people and natural urban light" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                            alt="Night street photography in Bangkok, Thailand" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                            alt="Bangkok street life, people and motion" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                        alt="Street photography in India, candid human moment" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                        alt="Street scene in India with natural light" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                        alt="Candid street photography in an Asian city" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                   alt="Street photography, light and shadow in an urban setting" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                      alt="Street portrait or scene, natural available light" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                        alt="Urban street photography, people in motion" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                        alt="Street photography, city life captured candidly" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                        alt="Street scene with human element and natural light" loading="lazy" /></div>
     </div>
   </div>
 
@@ -3380,7 +3373,7 @@
 
     <!-- Hero -->
     <div class="story-hero">
-      <img class="story-hero__img" src="Street/India/India_14.jpg" alt="Streets of Old Delhi, India" loading="lazy" style="object-position: center center;" />
+      <img class="story-hero__img" src="wildlife/image.png" alt="Streets of Old Delhi, India" loading="lazy" style="object-position: center center;" />
       <div class="story-hero__overlay"></div>
       <div class="jpw-mark">J · P · W</div>
       <div class="story-hero__content">
@@ -3419,29 +3412,29 @@
 
     <!-- Gallery -->
     <div class="story-gallery" style="max-width:100%;">
-      <div class="story-wm"><img src="Street/India/India_1.jpg"  alt="Streets of Old Delhi, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="Street/India/India_2.jpg"  alt="Old Delhi street scene, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="Street/India/India_3.jpg"  alt="Chandni Chowk, Old Delhi, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="Street/India/India_4.jpg"  alt="Street photography, Old Delhi, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="Street/India/India_5.jpg"  alt="Old Delhi market, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="Street/India/India_6.jpg"  alt="Spice market, Old Delhi, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="Street/India/India_7.jpg"  alt="Rickshaw in Old Delhi, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="Street/India/India_8.jpg"  alt="Old Delhi street life, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="Street/India/India_9.jpg"  alt="Shahjahanabad, Old Delhi, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="Street/India/India_10.jpg" alt="Street vendor, Old Delhi, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="Street/India/India_11.jpg" alt="Old Delhi architecture, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="Street/India/India_12.jpg" alt="Khari Baoli spice market, Old Delhi" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="Street/India/India_13.jpg" alt="Old Delhi, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="Street/India/India_15.jpg" alt="Old Delhi at dusk, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="Street/India/India_14.jpg" alt="Street photography, Chandni Chowk, India" loading="lazy" style="object-position: center center;" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="Street/India/India_17.jpg" alt="Old Delhi street, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="Street/India/India_18.jpg" alt="Old Delhi, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="Street/India/India_19.jpg" alt="Chandni Chowk, Old Delhi, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="Street/India/India_20.jpg" alt="Street life, Old Delhi, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="Street/India/India_21.jpg" alt="Old Delhi, Shahjahanabad, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="Street/India/India_22.jpg" alt="Street vendor, Old Delhi, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="Street/India/India_23.jpg" alt="Old Delhi street photography, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="Street/India/India_16.jpg" alt="Old Delhi, Shahjahanabad, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"  alt="Streets of Old Delhi, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"  alt="Old Delhi street scene, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"  alt="Chandni Chowk, Old Delhi, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"  alt="Street photography, Old Delhi, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"  alt="Old Delhi market, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"  alt="Spice market, Old Delhi, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"  alt="Rickshaw in Old Delhi, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"  alt="Old Delhi street life, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"  alt="Shahjahanabad, Old Delhi, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Street vendor, Old Delhi, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Old Delhi architecture, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Khari Baoli spice market, Old Delhi" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Old Delhi, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Old Delhi at dusk, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Street photography, Chandni Chowk, India" loading="lazy" style="object-position: center center;" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Old Delhi street, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Old Delhi, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Chandni Chowk, Old Delhi, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Street life, Old Delhi, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Old Delhi, Shahjahanabad, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Street vendor, Old Delhi, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Old Delhi street photography, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Old Delhi, Shahjahanabad, India" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
     </div>
 
     <!-- Location map -->
@@ -3450,7 +3443,7 @@
       <h3 class="story-map__heading">Old Delhi · Shahjahanabad · India</h3>
       <iframe
         class="story-map__frame"
-        src="https://www.openstreetmap.org/export/embed.html?bbox=77.18%2C28.63%2C77.25%2C28.67&amp;layer=mapnik&amp;marker=28.6562%2C77.2300"
+        src="wildlife/image.png"
         loading="lazy"
         title="Old Delhi location map"
         allowfullscreen>
@@ -3481,30 +3474,30 @@
       <p class="gallery-desc">Sixty countries, every terrain — a visual diary of the places that changed the way I see the world.</p>
     </div>
     <div class="gallery-masonry" role="list">
-      <div class="gallery-item" role="listitem"><img src="Travel/00F17FC8-CAC2-4CE6-A802-372CA89F9045.jpg"               alt="Travel photography, landscape from a journey abroad" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Travel/7E468E1E-B9D3-48BF-9DAB-57E18F0D8522_1_105_c.jpg"    alt="Travel scene with natural light and local character" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Travel/Bangkok-(186-of-259).jpg"                             alt="Bangkok at dusk, travel photography in Thailand" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Travel/Bangkok-(72-of-259).jpg"                              alt="Travel photography in Bangkok, Thailand" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Travel/Brazil-95.jpg"                                        alt="Landscape or travel photography in Brazil" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Travel/Brazil-97.jpg"                                        alt="Travel photography from Brazil, natural light" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Travel/CE7A2D93-D1F8-4694-8F62-3D1BC7830A4E_1_105_c.jpg"    alt="Travel photography, landscape or cultural scene" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Travel/D1096906-F1C5-4091-A5DA-7B57575F96D7_4_5005_c.jpg"   alt="Travel scene captured in natural available light" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Travel/DSC06000.jpg"                                         alt="Travel photography in India or South-East Asia" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Travel/DSC07021-DeepPRIME.jpg"                    alt="Landscape photography during international travel" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Travel/DSC07108.jpg"                                         alt="Travel photography, scenic view in natural light" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Travel/E112E152-2EB8-4517-8D12-90E6CFF249FB_1_105_c.jpg"    alt="Travel scene with people or landscape" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Travel/EPV0056.jpg"                                          alt="Travel photography, open landscape" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Travel/FF47A739-DB23-4EBA-85C5-35F9611EB049.jpg"             alt="Travel photography from an international destination" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Travel/IMG_2631.jpg"                                         alt="Travel photography, cultural or natural setting" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Travel/IMG_2809.jpg"                                         alt="Travel image from an international journey" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Travel/IMG_7703.jpg"                                         alt="Travel photography in natural or urban environment" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Travel/IMG_7828.jpg"                                  alt="Travel scene captured during an international trip" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Travel/MSTM_4.jpg"                                           alt="Travel photography, wide landscape view" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Travel/MSTM_5.jpg"                                           alt="Travel photography, scenic natural or cultural scene" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Travel/Namibia_2010-(74-of-163).jpg"                         alt="Travel photography in Namibia, natural landscape" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/TravelLandscapes/FE6DEF50-D070-4317-9338-0008C3E7B080_4_5005_c.jpg"  alt="Travel landscape photography, natural light" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/TravelLandscapes/45DB396B-BE52-486D-8CEB-0FB774BAC69A_4_5005_c.jpg"  alt="Landscape from an international journey" loading="lazy" /></div>
-      <div class="gallery-item" role="listitem"><img src="Collections/TravelLandscapes/3338DD66-004C-4138-AFB0-C65C7AD2AB3C_1_105_c.jpg"   alt="Travel landscape, natural scenery abroad" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"               alt="Travel photography, landscape from a journey abroad" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"    alt="Travel scene with natural light and local character" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                             alt="Bangkok at dusk, travel photography in Thailand" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                              alt="Travel photography in Bangkok, Thailand" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                        alt="Landscape or travel photography in Brazil" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                        alt="Travel photography from Brazil, natural light" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"    alt="Travel photography, landscape or cultural scene" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"   alt="Travel scene captured in natural available light" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                         alt="Travel photography in India or South-East Asia" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                    alt="Landscape photography during international travel" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                         alt="Travel photography, scenic view in natural light" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"    alt="Travel scene with people or landscape" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                          alt="Travel photography, open landscape" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"             alt="Travel photography from an international destination" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                         alt="Travel photography, cultural or natural setting" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                         alt="Travel image from an international journey" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                         alt="Travel photography in natural or urban environment" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                  alt="Travel scene captured during an international trip" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                           alt="Travel photography, wide landscape view" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                                           alt="Travel photography, scenic natural or cultural scene" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"                         alt="Travel photography in Namibia, natural landscape" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"  alt="Travel landscape photography, natural light" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"  alt="Landscape from an international journey" loading="lazy" /></div>
+      <div class="gallery-item" role="listitem"><img src="wildlife/image.png"   alt="Travel landscape, natural scenery abroad" loading="lazy" /></div>
     </div>
   </div>
 
@@ -3521,7 +3514,7 @@
     <!-- Card 1 — Featured / live story -->
     <a class="story-card" href="fieldnotes/brown-hyenas-tuli-block/index.html" data-view="story-botswana" onclick="showView('story-botswana')">
       <div class="story-card__img">
-        <img src="FieldNotes/Botswana/card.jpg" alt="Brown Hyena, Botswana" loading="lazy" />
+        <img src="wildlife/image.png" alt="Brown Hyena, Botswana" loading="lazy" />
       </div>
       <div class="story-card__text">
         <p class="sc-eyebrow">Wildlife · Camp Serolo · Tuli Block · Botswana</p>
@@ -3541,7 +3534,7 @@
     <!-- Card 2 — Mashatu Leopard -->
     <a class="story-card" href="fieldnotes/land-of-cats-mashatu/index.html" data-view="story-mashatu" onclick="showView('story-mashatu')">
       <div class="story-card__img">
-        <img src="FieldNotes/Mashatu/card.jpg" alt="Leopard at Mashatu, Northern Tuli Block, Botswana" loading="lazy" />
+        <img src="wildlife/image.png" alt="Leopard at Mashatu, Northern Tuli Block, Botswana" loading="lazy" />
       </div>
       <div class="story-card__text">
         <p class="sc-eyebrow">Wildlife · Mashatu Tent Camp · Northern Tuli · Botswana</p>
@@ -3561,7 +3554,7 @@
     <!-- Card 3 — Mashatu iPhone 2023 -->
     <a class="story-card" href="fieldnotes/no-camera-mashatu-2023/index.html" data-view="story-mashatu-iphone" onclick="showView('story-mashatu-iphone')">
       <div class="story-card__img">
-        <img src="FieldNotes/Mashatu_2023/Mashatu_2023_1.jpg" alt="Leopard, Mashatu, Botswana 2023 — iPhone" loading="lazy" />
+        <img src="wildlife/image.png" alt="Leopard, Mashatu, Botswana 2023 — iPhone" loading="lazy" />
       </div>
       <div class="story-card__text">
         <p class="sc-eyebrow">Wildlife · Mashatu Tent Camp · Northern Tuli · Botswana</p>
@@ -3581,7 +3574,7 @@
     <!-- Card 4 — Pantanal -->
     <a class="story-card" href="fieldnotes/searching-for-jaguar-pantanal/index.html" data-view="story-pantanal" onclick="showView('story-pantanal')">
       <div class="story-card__img">
-        <img src="FieldNotes/Pantanal/Brazil-66.jpg" alt="Blue-and-yellow macaw, Pantanal, Brazil" loading="lazy" />
+        <img src="wildlife/image.png" alt="Blue-and-yellow macaw, Pantanal, Brazil" loading="lazy" />
       </div>
       <div class="story-card__text">
         <p class="sc-eyebrow">Wildlife · Pantanal · Brazil</p>
@@ -3599,7 +3592,7 @@
     <!-- Card 5 — Uganda Chimps & Gorillas -->
     <a class="story-card" href="fieldnotes/chimps-gorillas-uganda/index.html" data-view="story-uganda" onclick="showView('story-uganda')">
       <div class="story-card__img">
-        <img src="FieldNotes/Uganda/card.jpg" alt="Chimpanzee, Kibale Forest, Uganda" loading="lazy" />
+        <img src="wildlife/image.png" alt="Chimpanzee, Kibale Forest, Uganda" loading="lazy" />
       </div>
       <div class="story-card__text">
         <p class="sc-eyebrow">Wildlife · Two Weeks Across Uganda</p>
@@ -3617,7 +3610,7 @@
     <!-- Card 6 — Shoebill -->
     <a class="story-card" href="fieldnotes/searching-for-shoebill-uganda/index.html" data-view="story-shoebill" onclick="showView('story-shoebill')">
       <div class="story-card__img">
-        <img src="FieldNotes/Shoebill/LakeAlbert/A1.jpg" alt="Shoebill, Lake Albert, Uganda" loading="lazy" />
+        <img src="wildlife/image.png" alt="Shoebill, Lake Albert, Uganda" loading="lazy" />
       </div>
       <div class="story-card__text">
         <p class="sc-eyebrow">Wildlife · Mabamba Swamp &amp; Lake Albert · Uganda</p>
@@ -3635,7 +3628,7 @@
     <!-- Card 3 — Coming soon -->
     <div class="story-card story-coming-soon">
       <div class="story-card__img">
-        <img src="FieldNotes/Bangkok/card.jpg" alt="Street Bangkok" loading="lazy" />
+        <img src="wildlife/image.png" alt="Street Bangkok" loading="lazy" />
       </div>
       <div class="story-card__text">
         <p class="sc-eyebrow">Street · Thailand</p>
@@ -3651,7 +3644,7 @@
     <!-- Card 4 — India coming soon -->
     <div class="story-card story-coming-soon">
       <div class="story-card__img">
-        <img src="FieldNotes/India/Tiger1.jpg" alt="Tiger, India" loading="lazy" />
+        <img src="wildlife/image.png" alt="Tiger, India" loading="lazy" />
       </div>
       <div class="story-card__text">
         <p class="sc-eyebrow">Wildlife · India</p>
@@ -3674,7 +3667,7 @@
 
     <!-- Hero -->
     <div class="story-hero">
-      <img class="story-hero__img" src="FieldNotes/Botswana/hero.jpg" alt="Brown Hyena, Tuli Wilderness" loading="lazy" />
+      <img class="story-hero__img" src="wildlife/image.png" alt="Brown Hyena, Tuli Wilderness" loading="lazy" />
       <div class="story-hero__overlay"></div>
       <div class="jpw-mark">J · P · W</div>
       <div class="story-hero__content">
@@ -3694,17 +3687,17 @@
     <div class="scroll-story" id="ss-botswana-1">
       <div class="scroll-story__images" aria-hidden="true">
         <div class="ss-img active" data-index="0">
-          <img src="FieldNotes/Botswana/BrownHayena_1.jpg" alt="Brown Hyena, Tuli Block, Botswana" loading="lazy" />
+          <img src="wildlife/image.png" alt="Brown Hyena, Tuli Block, Botswana" loading="lazy" />
           <div class="ss-img__overlay"></div>
           <div class="jpw-mark">J · P · W</div>
         </div>
         <div class="ss-img" data-index="1">
-          <img src="FieldNotes/Botswana/Botswana_2026-13.jpg" alt="Brown Hyena encounter, Tuli Block, Botswana 2026" loading="lazy" />
+          <img src="wildlife/image.png" alt="Brown Hyena encounter, Tuli Block, Botswana 2026" loading="lazy" />
           <div class="ss-img__overlay"></div>
           <div class="jpw-mark">J · P · W</div>
         </div>
         <div class="ss-img" data-index="2">
-          <img src="FieldNotes/Botswana/Botswana_2026-2.jpg" alt="Brown Hyena, Tuli Block, Botswana 2026" loading="lazy" />
+          <img src="wildlife/image.png" alt="Brown Hyena, Tuli Block, Botswana 2026" loading="lazy" />
           <div class="ss-img__overlay"></div>
           <div class="jpw-mark">J · P · W</div>
         </div>
@@ -3713,7 +3706,7 @@
       <div class="scroll-story__text">
 
         <div class="ss-block" data-img="0">
-          <img class="ss-block__mobile-img" src="FieldNotes/Botswana/BrownHayena_1.jpg" alt="Brown Hyena, Tuli Block, Botswana" loading="lazy" />
+          <img class="ss-block__mobile-img" src="wildlife/image.png" alt="Brown Hyena, Tuli Block, Botswana" loading="lazy" />
           <p class="ss-block__label">The Encounter</p>
           <p>The Tuli Block doesn't reward impatience. One of Botswana's most dramatic and untamed wilderness areas — a rugged landscape of ancient riverbeds, mopane woodland and basalt rock faces along the Limpopo — and the brown hyena, <em>Parahyaena brunnea</em>, is exactly the kind of animal this landscape was made to conceal. Camp Serolo, run by <a href="https://tuliwilderness.com/" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--border)">Tuli Wilderness</a>, sits at the heart of it.</p>
           <p>My wife and I had been at Camp Serolo for two nights before we saw the first tracks. Not an animal — just the impression of one in the rust-red sand at the edge of a dry pan. Wide, deliberate, unhurried. Our guide, Jou, crouched beside them without a word, ran one finger along the edge of a print, and looked up. <strong>"Last night. Maybe two, three hours before sunrise."</strong></p>
@@ -3721,7 +3714,7 @@
         </div>
 
         <div class="ss-block" data-img="1">
-          <img class="ss-block__mobile-img" src="FieldNotes/Botswana/Botswana_2026-13.jpg" alt="Brown Hyena encounter, Tuli Block, Botswana 2026" loading="lazy" />
+          <img class="ss-block__mobile-img" src="wildlife/image.png" alt="Brown Hyena encounter, Tuli Block, Botswana 2026" loading="lazy" />
           <p class="ss-block__label">Three Nights Without Roads</p>
           <p>On the second afternoon Jou found fresh tracks along a dry riverbed — wide, deliberate, pointing east. We positioned the vehicle at a bend where the tracks crossed open ground, arrived an hour before dusk, switched off the engine, and waited. The Tuli at dusk is not quiet. It hums and clicks and breathes. But it offers nothing until it decides to.</p>
           <p>While we waited, the reserve revealed itself in layers. A lion moved through the mopane on the second night — we heard him long before we saw him, a low resonance that you feel more in the chest than the ears. A pair of klipspringers picked their way across the basalt outcrop to the west, absurdly precise in the last light. Carmine bee-eaters worked the thermals above the riverbed each morning, and on one afternoon a Verreaux's eagle crossed the sky so slowly it seemed to be considering its options. None of this was why we came. All of it became part of the photographic memory of that week.</p>
@@ -3729,7 +3722,7 @@
         </div>
 
         <div class="ss-block" data-img="2">
-          <img class="ss-block__mobile-img" src="FieldNotes/Botswana/Botswana_2026-2.jpg" alt="Brown Hyena, Tuli Block, Botswana 2026" loading="lazy" />
+          <img class="ss-block__mobile-img" src="wildlife/image.png" alt="Brown Hyena, Tuli Block, Botswana 2026" loading="lazy" />
           <p class="ss-block__label">In the Half-Light</p>
           <p class="ss-pullquote">"The hyena emerged from the dark the way a thought emerges — gradually, then all at once, already there."</p>
           <p>She arrived just after 20:00. I know the time because I checked my watch when the torch beam caught two green eyes at the edge of the frame — and then wrote the number on the back of my hand in the way you write things when you are afraid you will forget them.</p>
@@ -3747,7 +3740,7 @@
     <div style="max-width:720px;margin:0 auto;padding:0 clamp(1.5rem,5vw,2rem)">
       <div class="story-behind">
         <div class="story-behind__img">
-          <img src="FieldNotes/Botswana/behind-shot.jpg" alt="Behind the shot — Tuli Wilderness" loading="lazy" />
+          <img src="wildlife/image.png" alt="Behind the shot — Tuli Wilderness" loading="lazy" />
           <div class="jpw-mark">J · P · W</div>
         </div>
         <div class="story-behind__specs">
@@ -3770,32 +3763,32 @@
 
     <!-- Inline gallery -->
     <div class="story-gallery">
-      <div class="story-wm"><img src="FieldNotes/Botswana/BrownHayena_2.jpg"             alt="Brown Hyena, Tuli Block, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Botswana/Lion_1.jpg"                    alt="Lion in the Tuli Block, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Botswana/Botswana_2026-2.jpg"           alt="Brown Hyena, Tuli Block, Botswana 2026" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Botswana/Botswana_2026-8.jpg"           alt="Wildlife photography, Tuli Block, Botswana 2026" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Botswana/Botswana_2026-9.jpg"           alt="Tuli Block safari, Botswana 2026" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Botswana/Botswana_2026-13.jpg"          alt="Brown Hyena encounter, Tuli Block, Botswana 2026" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Botswana/Botswana_2026-14.jpg"          alt="Tuli Block wildlife, Botswana 2026" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Botswana/Botswana_2026-15.jpg"          alt="Botswana safari photography, Tuli Block 2026" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Botswana/map-botswana.jpg" alt="Tuli Block, Botswana, December 2025" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"             alt="Brown Hyena, Tuli Block, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"                    alt="Lion in the Tuli Block, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"           alt="Brown Hyena, Tuli Block, Botswana 2026" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"           alt="Wildlife photography, Tuli Block, Botswana 2026" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"           alt="Tuli Block safari, Botswana 2026" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"          alt="Brown Hyena encounter, Tuli Block, Botswana 2026" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"          alt="Tuli Block wildlife, Botswana 2026" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"          alt="Botswana safari photography, Tuli Block 2026" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Tuli Block, Botswana, December 2025" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
     </div>
 
     <!-- ░░ Scroll Story 2 — The Closing ░░ -->
     <div class="scroll-story" id="ss-botswana-2">
       <div class="scroll-story__images" aria-hidden="true">
         <div class="ss-img active" data-index="0">
-          <img src="FieldNotes/Botswana/BrownHayena_2.jpg" alt="Brown Hyena, Tuli Block, Botswana" loading="lazy" />
+          <img src="wildlife/image.png" alt="Brown Hyena, Tuli Block, Botswana" loading="lazy" />
           <div class="ss-img__overlay"></div>
           <div class="jpw-mark">J · P · W</div>
         </div>
         <div class="ss-img" data-index="1">
-          <img src="FieldNotes/Botswana/Botswana_2026-1.jpg" alt="Brown Hyena, Tuli Block, Botswana 2026 return" loading="lazy" />
+          <img src="wildlife/image.png" alt="Brown Hyena, Tuli Block, Botswana 2026 return" loading="lazy" />
           <div class="ss-img__overlay"></div>
           <div class="jpw-mark">J · P · W</div>
         </div>
         <div class="ss-img" data-index="2">
-          <img src="FieldNotes/Botswana/Botswana_2026-13.jpg" alt="Brown Hyena encounter, Tuli Block, Botswana 2026" loading="lazy" />
+          <img src="wildlife/image.png" alt="Brown Hyena encounter, Tuli Block, Botswana 2026" loading="lazy" />
           <div class="ss-img__overlay"></div>
           <div class="jpw-mark">J · P · W</div>
         </div>
@@ -3804,13 +3797,13 @@
       <div class="scroll-story__text">
 
         <div class="ss-block" data-img="0">
-          <img class="ss-block__mobile-img" src="FieldNotes/Botswana/BrownHayena_2.jpg" alt="Brown Hyena, Tuli Block, Botswana" loading="lazy" />
+          <img class="ss-block__mobile-img" src="wildlife/image.png" alt="Brown Hyena, Tuli Block, Botswana" loading="lazy" />
           <p class="ss-block__label">Reading the Silence</p>
           <p>She moved through for close to forty minutes. We did not move, did not speak, barely breathed. In that time I made perhaps sixty frames. Most are mediocre — the light was brutal, the focus uncertain at these distances in the dark. But five frames from that sequence are among the best wildlife images I have ever made. Not technically. Technically they are imperfect. But emotionally — in the thing they hold — they are exactly right.</p>
         </div>
 
         <div class="ss-block" data-img="1">
-          <img class="ss-block__mobile-img" src="FieldNotes/Botswana/Botswana_2026-1.jpg" alt="Tuli Block, Botswana 2026" loading="lazy" />
+          <img class="ss-block__mobile-img" src="wildlife/image.png" alt="Tuli Block, Botswana 2026" loading="lazy" />
           <p class="ss-block__label">Why This Moment Stayed</p>
           <p class="ss-pullquote">"Wildlife photography is not about the camera, the light or the lens. It is about being willing to sit in the dark long enough."</p>
           <p>On the last night she returned with a juvenile — smaller, still carrying the spotted flanks of a young hyena. They moved through together for nearly two hours, pausing, testing the air, disappearing into the mopane and reappearing somewhere unexpected. Jou, my wife, and I sat in silence and watched them and did not photograph. Some things deserve to be witnessed without glass in front of them.</p>
@@ -3818,7 +3811,7 @@
         </div>
 
         <div class="ss-block" data-img="2">
-          <img class="ss-block__mobile-img" src="FieldNotes/Botswana/Botswana_2026-13.jpg" alt="Brown Hyena encounter, Tuli Block, Botswana 2026" loading="lazy" />
+          <img class="ss-block__mobile-img" src="wildlife/image.png" alt="Brown Hyena encounter, Tuli Block, Botswana 2026" loading="lazy" />
           <p class="ss-block__label">Return · Tuli Block 2026</p>
           <p>My wife and I returned to the Tuli Block in 2026. Different season, deeper into the dry, the riverbeds bleached white. This time the scene was different — and more violent. A gnu carcass, a few days old, had drawn her in. She was already at it when we arrived, working the hindquarters with the methodical focus of an animal that wastes nothing. Then she stopped, gripped a rear leg at the joint, and simply walked off with it into the mopane. No hesitation, no ceremony — just the leg, swinging, and the dark swallowing her whole. That is the image in the 2026 frames: not just a hyena, but a hyena going somewhere, with intention, carrying what she came for.</p>
         </div>
@@ -3848,7 +3841,7 @@
       <h3 class="story-map__heading">Tuli Block · Camp Serolo, Botswana</h3>
       <iframe
         class="story-map__frame"
-        src="https://www.openstreetmap.org/export/embed.html?bbox=28.7%2C-22.35%2C29.55%2C-21.55&amp;layer=mapnik&amp;marker=-21.95%2C29.13"
+        src="wildlife/image.png"
         loading="lazy"
         title="Tuli Wilderness location map"
         allowfullscreen>
@@ -3869,8 +3862,8 @@
     <!-- Hero -->
     <div class="story-hero">
       <div class="story-hero__imgs">
-        <img class="story-hero__img story-hero__img--a" src="FieldNotes/Mashatu/hero.jpg"    alt="Leopard on basalt koppie, Mashatu, Northern Tuli Block, Botswana" loading="lazy" />
-        <img class="story-hero__img story-hero__img--b" src="FieldNotes/Mashatu/hero_2.jpg" alt="Leopard in the Northern Tuli Block, Mashatu, Botswana" loading="lazy" />
+        <img class="story-hero__img story-hero__img--a" src="wildlife/image.png"    alt="Leopard on basalt koppie, Mashatu, Northern Tuli Block, Botswana" loading="lazy" />
+        <img class="story-hero__img story-hero__img--b" src="wildlife/image.png" alt="Leopard in the Northern Tuli Block, Mashatu, Botswana" loading="lazy" />
       </div>
       <div class="story-hero__overlay"></div>
       <div class="jpw-mark">J · P · W</div>
@@ -3891,22 +3884,22 @@
     <div class="scroll-story" id="ss-mashatu-1">
       <div class="scroll-story__images" aria-hidden="true">
         <div class="ss-img active" data-index="0">
-          <img src="FieldNotes/Mashatu/Mashatu_3.jpg" alt="Leopard tracking, Mashatu, Botswana" loading="lazy" />
+          <img src="wildlife/image.png" alt="Leopard tracking, Mashatu, Botswana" loading="lazy" />
           <div class="ss-img__overlay"></div>
           <div class="jpw-mark">J · P · W</div>
         </div>
         <div class="ss-img" data-index="1">
-          <img src="FieldNotes/Mashatu/Mashatu_3_2.jpg" alt="Leopard track detail, Mashatu, Botswana" loading="lazy" />
+          <img src="wildlife/image.png" alt="Leopard track detail, Mashatu, Botswana" loading="lazy" />
           <div class="ss-img__overlay"></div>
           <div class="jpw-mark">J · P · W</div>
         </div>
         <div class="ss-img" data-index="2">
-          <img src="FieldNotes/Mashatu/Mashatu.jpg" alt="Leopard lying flat, Mashatu, Botswana" loading="lazy" />
+          <img src="wildlife/image.png" alt="Leopard lying flat, Mashatu, Botswana" loading="lazy" />
           <div class="ss-img__overlay"></div>
           <div class="jpw-mark">J · P · W</div>
         </div>
         <div class="ss-img" data-index="3">
-          <img src="FieldNotes/Mashatu/Mashatu_2.jpg" alt="Young leopard cub glimpsed near kill, Mashatu" loading="lazy" />
+          <img src="wildlife/image.png" alt="Young leopard cub glimpsed near kill, Mashatu" loading="lazy" />
           <div class="ss-img__overlay"></div>
           <div class="jpw-mark">J · P · W</div>
         </div>
@@ -3915,28 +3908,28 @@
       <div class="scroll-story__text">
 
         <div class="ss-block" data-img="0">
-          <img class="ss-block__mobile-img" src="FieldNotes/Mashatu/Mashatu_3.jpg" alt="Leopard tracking, Mashatu, Botswana" loading="lazy" />
+          <img class="ss-block__mobile-img" src="wildlife/image.png" alt="Leopard tracking, Mashatu, Botswana" loading="lazy" />
           <p class="ss-block__label">Into the Bush</p>
           <p>Richard had been guiding in this concession since 1994. He knows the Northern Tuli Block the way a musician knows a piece they have played ten thousand times — not from memory, but from the body. That afternoon he drove slowly, reading the ground with the particular quiet of a man who does not need to announce what he is seeing.</p>
           <p>Beside him, Commando — our tracker — was already on the move. Commando does not look for leopards. He looks for what leopards leave behind: the pressed sand, the turned stone, the dry grass that bends the wrong way. Between the two of them, very little in this bush gets missed.</p>
         </div>
 
         <div class="ss-block" data-img="1">
-          <img class="ss-block__mobile-img" src="FieldNotes/Mashatu/Mashatu_3_2.jpg" alt="Leopard lying in the bushes, Mashatu, Botswana" loading="lazy" />
+          <img class="ss-block__mobile-img" src="wildlife/image.png" alt="Leopard lying in the bushes, Mashatu, Botswana" loading="lazy" />
           <p class="ss-block__label">She Was There</p>
           <p>Commando raised his fist and Richard cut the engine in the same breath — a single fluid motion built from years of working together. There she was: the <em>nkwe</em>, lying in the bushes, completely relaxed, the way leopards are when they know the ground belongs to them. She looked at us once and looked away.</p>
           <p>Commando touched Richard on the shoulder and pointed — a few metres ahead, screened by thorn scrub, an impala. Freshly taken. She had eaten in the night and come to rest nearby. Richard turned to us and said nothing. He didn't need to.</p>
         </div>
 
         <div class="ss-block" data-img="2">
-          <img class="ss-block__mobile-img" src="FieldNotes/Mashatu/Mashatu.jpg" alt="Leopard resting near kill, Mashatu, Botswana" loading="lazy" />
+          <img class="ss-block__mobile-img" src="wildlife/image.png" alt="Leopard resting near kill, Mashatu, Botswana" loading="lazy" />
           <p class="ss-block__label">Sitting With Her</p>
           <p>We sat. Richard kept the vehicle perfectly still, the engine off, everyone low. He has a gift for creating silence around an animal — not just the absence of noise, but a kind of presence that doesn't disturb. The mother lay close to her kill in the easy stillness of a cat with nothing left to prove that afternoon.</p>
           <p>Then something moved in the thicket behind the kill. Smaller. Quicker. Gone before the eye could confirm what the heart already understood. Richard's hand went up — wait.</p>
         </div>
 
         <div class="ss-block" data-img="3">
-          <img class="ss-block__mobile-img" src="FieldNotes/Mashatu/Mashatu_2.jpg" alt="Young leopard cub glimpsed near impala kill, Mashatu" loading="lazy" />
+          <img class="ss-block__mobile-img" src="wildlife/image.png" alt="Young leopard cub glimpsed near impala kill, Mashatu" loading="lazy" />
           <p class="ss-block__label">A Flash of Gold</p>
           <p>A flash — golden, quick, there and then not there. Smaller than the mother. Lighter on its feet. Richard glanced at Commando. Commando nodded slowly. They had both seen it at the same moment and understood what it was before any of us did.</p>
           <p>A cub. There was a cub.</p>
@@ -3950,22 +3943,22 @@
     <div class="scroll-story" id="ss-mashatu-2">
       <div class="scroll-story__images" aria-hidden="true">
         <div class="ss-img active" data-index="0">
-          <img src="FieldNotes/Mashatu/Mashatu_5.jpg" alt="Leopard cub feeding on impala, Mashatu, Botswana" loading="lazy" />
+          <img src="wildlife/image.png" alt="Leopard cub feeding on impala, Mashatu, Botswana" loading="lazy" />
           <div class="ss-img__overlay"></div>
           <div class="jpw-mark">J · P · W</div>
         </div>
         <div class="ss-img" data-index="1">
-          <img src="FieldNotes/Mashatu/Mashatu_4.jpg" alt="Mother and cub leopard together, Mashatu, Botswana" loading="lazy" />
+          <img src="wildlife/image.png" alt="Mother and cub leopard together, Mashatu, Botswana" loading="lazy" />
           <div class="ss-img__overlay"></div>
           <div class="jpw-mark">J · P · W</div>
         </div>
         <div class="ss-img" data-index="2">
-          <img src="FieldNotes/Mashatu/Mashatu_4_2.jpg" alt="Leopard mother and cub feeding, Mashatu, Botswana" loading="lazy" />
+          <img src="wildlife/image.png" alt="Leopard mother and cub feeding, Mashatu, Botswana" loading="lazy" />
           <div class="ss-img__overlay"></div>
           <div class="jpw-mark">J · P · W</div>
         </div>
         <div class="ss-img" data-index="3">
-          <img src="FieldNotes/Mashatu/Mashatu_6.jpg" alt="Leopard at Mashatu, Northern Tuli Block, Botswana" loading="lazy" />
+          <img src="wildlife/image.png" alt="Leopard at Mashatu, Northern Tuli Block, Botswana" loading="lazy" />
           <div class="ss-img__overlay"></div>
           <div class="jpw-mark">J · P · W</div>
         </div>
@@ -3974,7 +3967,7 @@
       <div class="scroll-story__text">
 
         <div class="ss-block" data-img="0">
-          <img class="ss-block__mobile-img" src="FieldNotes/Mashatu/Mashatu_5.jpg" alt="Young leopard cub emerging to feed on impala, Mashatu" loading="lazy" />
+          <img class="ss-block__mobile-img" src="wildlife/image.png" alt="Young leopard cub emerging to feed on impala, Mashatu" loading="lazy" />
           <p class="ss-block__label">The Wait</p>
           <p>Richard's hand went up and nobody moved. In the African bush, stillness is the only currency that buys you anything — and Richard and Commando between them have spent a lifetime earning it. Commando had not moved in four minutes. Richard watched the thicket with the focused patience of a man who knows that forcing the moment always costs you the moment.</p>
           <p>Then the thicket shifted. Slowly, cautiously — the cub stepped out. A <em>nkwenyana</em>. A young one. It studied us with eyes that were not yet sure what we were, decided we were not a threat, and turned toward the impala. Commando exhaled. It was the quietest celebration I have ever heard.</p>
@@ -3982,21 +3975,21 @@
         </div>
 
         <div class="ss-block" data-img="1">
-          <img class="ss-block__mobile-img" src="FieldNotes/Mashatu/Mashatu_4.jpg" alt="Mother and cub leopard together at Mashatu, Botswana" loading="lazy" />
+          <img class="ss-block__mobile-img" src="wildlife/image.png" alt="Mother and cub leopard together at Mashatu, Botswana" loading="lazy" />
           <p class="ss-block__label">A Sighting of a Lifetime</p>
           <p>The mother rose and walked to her cub in that long, flowing way leopards have of covering ground without appearing to hurry. They touched — foreheads together, the rumble of something deep in her chest that we felt more than heard. <em>Lorato</em>. Love, in Setswana. In a leopard it looks exactly like this.</p>
           <p>Richard turned to look at us. Thirty years in these hills, and even for him this was something rare — a mother and cub together on a fresh kill, close enough to photograph, staying. He said nothing. His expression said everything.</p>
         </div>
 
         <div class="ss-block" data-img="2">
-          <img class="ss-block__mobile-img" src="FieldNotes/Mashatu/Mashatu_4_2.jpg" alt="Leopard mother and cub feeding together, Mashatu, Botswana" loading="lazy" />
+          <img class="ss-block__mobile-img" src="wildlife/image.png" alt="Leopard mother and cub feeding together, Mashatu, Botswana" loading="lazy" />
           <p class="ss-block__label">Feeding Together</p>
           <p>They fed together in the afternoon light, the cub eating with the urgent focus of youth, the mother close beside it — watchful still, because the instinct that keeps a cub alive never fully rests, even on an afternoon like this. Commando watched them the way he watches everything: completely, quietly, without disturbing the air between him and the animals.</p>
           <p>This is what thirty years with Richard and seventeen with Commando produces. Not just access to the animals — the ability to stay with them. To be trusted by the bush itself.</p>
         </div>
 
         <div class="ss-block" data-img="3">
-          <img class="ss-block__mobile-img" src="FieldNotes/Mashatu/Mashatu_6.jpg" alt="Leopard at Mashatu, Northern Tuli Block, Botswana" loading="lazy" />
+          <img class="ss-block__mobile-img" src="wildlife/image.png" alt="Leopard at Mashatu, Northern Tuli Block, Botswana" loading="lazy" />
           <p class="ss-block__label">Before They Disappeared</p>
           <p>We stayed until they were finished. Nobody wanted to leave. When the mother finally moved off into the jesse bush, the cub followed — one step behind, already learning the shape of her. The bush closed around them without a sound.</p>
           <p>On the drive back Richard said very little. Commando looked out at the passing mopane with a small, private smile. Between them, no words were needed. This was their ground, their animals, their afternoon — and they had chosen to share it with us.</p>
@@ -4012,7 +4005,7 @@
       <div class="story-video-wrap">
         <div class="yt-facade" data-vid="LGwYAx97szQ" role="button" tabindex="0"
              aria-label="Play: Nine nights in the Northern Tuli Block — Mashatu Tent Camp, Botswana 2026">
-          <img src="../img.youtube.com/vi/LGwYAx97szQ/maxresdefault.jpg"
+          <img src="wildlife/image.png"
                alt="Nine nights in the Northern Tuli Block — Mashatu Tent Camp, Botswana 2026"
                loading="lazy" />
           <button class="yt-play-btn" tabindex="-1" aria-hidden="true">
@@ -4028,21 +4021,21 @@
 
     <!-- Inline gallery — images to be added -->
     <div class="story-gallery">
-      <div class="story-wm"><img src="FieldNotes/Mashatu/Mashatu.jpg"   alt="Leopard, Mashatu Tent Camp, Northern Tuli Block, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Mashatu/Mashatu_1.jpg" alt="Leopard on the riverbank, Mashatu Tent Camp, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Mashatu/Mashatu_2.jpg" alt="Leopard cub at Mashatu, Northern Tuli Block, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Mashatu/Mashatu_3.jpg" alt="Leopard feeding on impala, Mashatu, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Mashatu/Mashatu_4.jpg" alt="Mother and cub leopard, Mashatu Tent Camp, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Mashatu/Mashatu_5.jpg" alt="Leopard at Mashatu, Northern Tuli Block, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Mashatu/Mashatu_6.jpg" alt="Leopard, Mashatu Tent Camp, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Mashatu/Mashatu_7_1.jpg" alt="Leopard, Mashatu Tent Camp, Northern Tuli Block, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Mashatu/Mashatu_7_2.jpg" alt="Leopard, Mashatu, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Mashatu/Mashatu_7_3.jpg" alt="Leopard, Mashatu Tent Camp, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Mashatu/Mashatu_10.jpg" alt="Leopard, Mashatu Tent Camp, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Mashatu/Mashatu_11.jpg" alt="Leopard, Northern Tuli Block, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Mashatu/Mashatu_12.jpg" alt="Leopard at Mashatu, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Mashatu/Mashatu_13.jpg" alt="Leopard, Mashatu Tent Camp, Northern Tuli Block, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Mashatu/Mashatu_14.jpg" alt="Leopard, Mashatu, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"   alt="Leopard, Mashatu Tent Camp, Northern Tuli Block, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Leopard on the riverbank, Mashatu Tent Camp, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Leopard cub at Mashatu, Northern Tuli Block, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Leopard feeding on impala, Mashatu, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Mother and cub leopard, Mashatu Tent Camp, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Leopard at Mashatu, Northern Tuli Block, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Leopard, Mashatu Tent Camp, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Leopard, Mashatu Tent Camp, Northern Tuli Block, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Leopard, Mashatu, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Leopard, Mashatu Tent Camp, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Leopard, Mashatu Tent Camp, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Leopard, Northern Tuli Block, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Leopard at Mashatu, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Leopard, Mashatu Tent Camp, Northern Tuli Block, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Leopard, Mashatu, Botswana" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
     </div>
 
     <!-- Location map -->
@@ -4051,7 +4044,7 @@
       <h3 class="story-map__heading">Northern Tuli Block · Mashatu Tent Camp, Botswana</h3>
       <iframe
         class="story-map__frame"
-        src="https://www.openstreetmap.org/export/embed.html?bbox=28.9%2C-22.75%2C29.55%2C-22.25&amp;layer=mapnik&amp;marker=-22.53%2C29.18"
+        src="wildlife/image.png"
         loading="lazy"
         title="Mashatu Tent Camp location map"
         allowfullscreen>
@@ -4082,7 +4075,7 @@
 
     <!-- Hero -->
     <div class="story-hero">
-      <img class="story-hero__img" src="FieldNotes/Mashatu_2023/hero.jpg" alt="Leopard photographed on iPhone, Mashatu, Botswana 2023" loading="lazy" />
+      <img class="story-hero__img" src="wildlife/image.png" alt="Leopard photographed on iPhone, Mashatu, Botswana 2023" loading="lazy" />
       <div class="story-hero__overlay"></div>
       <div class="jpw-mark">J · P · W</div>
       <div class="story-hero__content">
@@ -4125,12 +4118,12 @@
 
     <!-- Gallery -->
     <div class="story-gallery" style="max-width:100%;">
-      <div class="story-wm"><img src="FieldNotes/Mashatu_2023/Mashatu_2023_1.jpg" alt="Leopard, Mashatu, Botswana 2023 — iPhone" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Mashatu_2023/Mashatu_2023_2.jpg" alt="Wildlife, Mashatu Tent Camp, Botswana 2023 — iPhone" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Mashatu_2023/Mashatu_2023_3.jpg" alt="Leopard on koppie, Mashatu, Botswana 2023 — iPhone" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Mashatu_2023/Mashatu_2023_4.jpg" alt="Mashatu, Northern Tuli Block, Botswana 2023 — iPhone" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Mashatu_2023/Mashatu_2023_5.jpg" alt="Wildlife, Mashatu, Botswana 2023 — iPhone" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Mashatu_2023/Mashatu_2023_6.jpg" alt="Northern Tuli Block, Botswana 2023 — iPhone" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Leopard, Mashatu, Botswana 2023 — iPhone" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Wildlife, Mashatu Tent Camp, Botswana 2023 — iPhone" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Leopard on koppie, Mashatu, Botswana 2023 — iPhone" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Mashatu, Northern Tuli Block, Botswana 2023 — iPhone" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Wildlife, Mashatu, Botswana 2023 — iPhone" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Northern Tuli Block, Botswana 2023 — iPhone" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
     </div>
 
     <!-- Location map -->
@@ -4139,7 +4132,7 @@
       <h3 class="story-map__heading">Northern Tuli Block · Mashatu Tent Camp, Botswana</h3>
       <iframe
         class="story-map__frame"
-        src="https://www.openstreetmap.org/export/embed.html?bbox=28.9%2C-22.75%2C29.55%2C-22.25&amp;layer=mapnik&amp;marker=-22.53%2C29.18"
+        src="wildlife/image.png"
         loading="lazy"
         title="Mashatu Tent Camp location map"
         allowfullscreen>
@@ -4170,7 +4163,7 @@
 
     <!-- Hero -->
     <div class="story-hero">
-      <img class="story-hero__img" src="FieldNotes/Pantanal/Brazil-66.jpg" alt="Blue-and-yellow macaw portrait, Pantanal, Brazil" loading="lazy" />
+      <img class="story-hero__img" src="wildlife/image.png" alt="Blue-and-yellow macaw portrait, Pantanal, Brazil" loading="lazy" />
       <div class="story-hero__overlay"></div>
       <div class="jpw-mark">J · P · W</div>
       <div class="story-hero__content">
@@ -4215,22 +4208,22 @@
 
     <!-- Gallery -->
     <div class="story-gallery" style="max-width:100%;">
-      <div class="story-wm"><img src="FieldNotes/Pantanal/Brazil-93.jpg" alt="Giant anteater tamanduá-bandeira moving through tall grass, Pousada Aguapé, Pantanal" loading="lazy" style="object-position: right center;" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Pantanal/Brazil-3.jpg"  alt="Pantanal bird, Brazil" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Pantanal/Brazil-29.jpg" alt="Capybara in the shallows, Pantanal, Brazil" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Pantanal/Brazil-9.jpg"  alt="Bird photography, Pantanal, Brazil" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Pantanal/Brazil-12.jpg" alt="Pantanal wetlands birdlife, Brazil" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Pantanal/Brazil-17.jpg" alt="Yacaré caiman at the water surface, Pantanal, Brazil" loading="lazy" style="object-position: center center;" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Pantanal/Brazil-18.jpg" alt="Bird in natural light, Pantanal, Brazil" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Pantanal/Brazil-21.jpg" alt="Wildlife photography, Brazilian Pantanal" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Pantanal/Brazil-80.jpg" alt="Tufted capuchin monkey in the trees, Pantanal, Brazil" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Pantanal/Brazil-32.jpg" alt="Pantanal bird species, Brazil" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Pantanal/Brazil-39.jpg" alt="Bird photography, Brazil" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Pantanal/Brazil-44.jpg" alt="Pantanal wetlands, Brazil" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Pantanal/Brazil-50.jpg" alt="Bird, Pantanal, Brazil" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Pantanal/Brazil-58.jpg" alt="Wildlife, Pantanal" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Pantanal/Brazil-65.jpg" alt="Bird photography, Brazilian wetlands" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Pantanal/Brazil-72.jpg" alt="Pantanal birds, Brazil" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Giant anteater tamanduá-bandeira moving through tall grass, Pousada Aguapé, Pantanal" loading="lazy" style="object-position: right center;" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"  alt="Pantanal bird, Brazil" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Capybara in the shallows, Pantanal, Brazil" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"  alt="Bird photography, Pantanal, Brazil" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Pantanal wetlands birdlife, Brazil" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Yacaré caiman at the water surface, Pantanal, Brazil" loading="lazy" style="object-position: center center;" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Bird in natural light, Pantanal, Brazil" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Wildlife photography, Brazilian Pantanal" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Tufted capuchin monkey in the trees, Pantanal, Brazil" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Pantanal bird species, Brazil" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Bird photography, Brazil" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Pantanal wetlands, Brazil" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Bird, Pantanal, Brazil" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Wildlife, Pantanal" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Bird photography, Brazilian wetlands" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Pantanal birds, Brazil" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
     </div>
 
     <!-- Location map -->
@@ -4239,7 +4232,7 @@
       <h3 class="story-map__heading">Pantanal · Brazil</h3>
       <iframe
         class="story-map__frame"
-        src="https://www.openstreetmap.org/export/embed.html?bbox=-58.5%2C-18.5%2C-54.5%2C-15.5&amp;layer=mapnik&amp;marker=-17.0%2C-56.5"
+        src="wildlife/image.png"
         loading="lazy"
         title="Pantanal location map"
         allowfullscreen>
@@ -4271,8 +4264,8 @@
     <!-- Hero -->
     <div class="story-hero">
       <div class="story-hero__imgs">
-        <img class="story-hero__img story-hero__img--a" src="FieldNotes/Uganda/card2.html" alt="Mountain gorilla, Bwindi Impenetrable Forest, Uganda" loading="lazy" />
-        <img class="story-hero__img story-hero__img--b" src="FieldNotes/Uganda/card.jpg" alt="Chimpanzee in profile, Kibale Forest, Uganda" loading="lazy" />
+        <img class="story-hero__img story-hero__img--a" src="wildlife/image.png" alt="Mountain gorilla, Bwindi Impenetrable Forest, Uganda" loading="lazy" />
+        <img class="story-hero__img story-hero__img--b" src="wildlife/image.png" alt="Chimpanzee in profile, Kibale Forest, Uganda" loading="lazy" />
       </div>
       <div class="story-hero__overlay"></div>
       <div class="jpw-mark">J · P · W</div>
@@ -4293,17 +4286,17 @@
     <div class="scroll-story" id="ss-uganda-1">
       <div class="scroll-story__images" aria-hidden="true">
         <div class="ss-img active" data-index="0">
-          <img src="FieldNotes/Uganda/C1.jpg" alt="Chimpanzee gazing into the canopy, Kibale Forest National Park, Uganda" loading="lazy" />
+          <img src="wildlife/image.png" alt="Chimpanzee gazing into the canopy, Kibale Forest National Park, Uganda" loading="lazy" />
           <div class="ss-img__overlay"></div>
           <div class="jpw-mark">J · P · W</div>
         </div>
         <div class="ss-img" data-index="1">
-          <img src="FieldNotes/Uganda/C2.jpg" alt="Chimpanzee calling, Kibale Forest, Uganda" loading="lazy" />
+          <img src="wildlife/image.png" alt="Chimpanzee calling, Kibale Forest, Uganda" loading="lazy" />
           <div class="ss-img__overlay"></div>
           <div class="jpw-mark">J · P · W</div>
         </div>
         <div class="ss-img" data-index="2">
-          <img src="FieldNotes/Uganda/C4.jpg" alt="Chimpanzee seated in a forest tree, Kibale, Uganda" loading="lazy" />
+          <img src="wildlife/image.png" alt="Chimpanzee seated in a forest tree, Kibale, Uganda" loading="lazy" />
           <div class="ss-img__overlay"></div>
           <div class="jpw-mark">J · P · W</div>
         </div>
@@ -4312,7 +4305,7 @@
       <div class="scroll-story__text">
 
         <div class="ss-block" data-img="0">
-          <img class="ss-block__mobile-img" src="FieldNotes/Uganda/C1.jpg" alt="Chimpanzee gazing into the canopy, Kibale Forest, Uganda" loading="lazy" />
+          <img class="ss-block__mobile-img" src="wildlife/image.png" alt="Chimpanzee gazing into the canopy, Kibale Forest, Uganda" loading="lazy" />
           <p class="ss-block__label">The Long Road North</p>
           <p>Rob John met us at Entebbe with a quiet nod and a vehicle packed for more than two weeks on the road. The plan covered most of a country: Lake Victoria, Murchison Falls, Kibale, Queen Elizabeth, Bwindi, and finally back east to the Nile. He had driven every kilometre of it before, many times, and it showed from the first morning.</p>
           <p>That first morning was Mabamba Swamp — a maze of papyrus channels on the edge of Lake Victoria, and one of the last reliable places on earth to find the shoebill. We slid through the channels in a low wooden canoe at first light, and after an hour the guide simply stopped paddling and pointed. The bird stood motionless among the reeds, prehistoric and improbable, staring down at the water with the patience of something that has been doing exactly this for fifty million years.</p>
@@ -4320,7 +4313,7 @@
         </div>
 
         <div class="ss-block" data-img="1">
-          <img class="ss-block__mobile-img" src="FieldNotes/Uganda/C2.jpg" alt="Chimpanzee calling, Kibale Forest, Uganda" loading="lazy" />
+          <img class="ss-block__mobile-img" src="wildlife/image.png" alt="Chimpanzee calling, Kibale Forest, Uganda" loading="lazy" />
           <p class="ss-block__label">Finding the Group</p>
           <p>The ranger located them by sound — a distant drumming, then a chorus of calls moving fast through the canopy to the north. We walked hard for twenty minutes, following trails that narrowed to nothing, until the trees opened slightly and there they were: a group of eleven, spread across three fig trees, feeding with complete indifference to our presence below.</p>
           <p>Shooting in a closed forest canopy is a technical challenge that no amount of preparation entirely solves. The light is filtered, broken, constantly shifting. At ISO 12800 with a 500mm at f/6.3, you are asking the camera to do things it would rather not. But there are moments — when a chimp drops from one branch to another, or turns and looks directly down at you with an expression that is uncomfortably familiar — when none of that matters. You press the shutter because the image exists and you happen to be there.</p>
@@ -4328,7 +4321,7 @@
         </div>
 
         <div class="ss-block" data-img="2">
-          <img class="ss-block__mobile-img" src="FieldNotes/Uganda/C4.jpg" alt="Chimpanzee seated in a forest tree, Kibale Forest National Park, Uganda" loading="lazy" />
+          <img class="ss-block__mobile-img" src="wildlife/image.png" alt="Chimpanzee seated in a forest tree, Kibale Forest National Park, Uganda" loading="lazy" />
           <p class="ss-block__label">The Lions We Didn't Find</p>
           <p>From Kibale, Rob drove us south into Queen Elizabeth National Park with one objective: the tree-climbing lions of Ishasha. It is one of only two populations in the world known to rest routinely in trees — sprawled along the limbs of giant fig trees through the heat of the day. We searched for two days. We found the fig trees. We found the kob herds the lions feed on, elephants crossing the Kazinga Channel, hippos stacked along the banks like cargo. We did not find the lions.</p>
           <p>Rob took it personally in the quietest possible way — a slow shake of the head at each empty fig tree, a recalculation, another loop of the sector before the light went. Uganda teaches patience the way all good places do: by simply not cooperating until you stop expecting it to. Some animals you earn. Some you are owed for next time.</p>
@@ -4345,17 +4338,17 @@
     <div class="scroll-story" id="ss-uganda-2">
       <div class="scroll-story__images" aria-hidden="true">
         <div class="ss-img active" data-index="0">
-          <img src="FieldNotes/Uganda/G1.jpg" alt="Silverback mountain gorilla watching through foliage, Bwindi Impenetrable Forest, Uganda" loading="lazy" />
+          <img src="wildlife/image.png" alt="Silverback mountain gorilla watching through foliage, Bwindi Impenetrable Forest, Uganda" loading="lazy" />
           <div class="ss-img__overlay"></div>
           <div class="jpw-mark">J · P · W</div>
         </div>
         <div class="ss-img" data-index="1">
-          <img src="FieldNotes/Uganda/G2.jpg" alt="Silverback mountain gorilla, Bwindi Impenetrable Forest, Uganda" loading="lazy" />
+          <img src="wildlife/image.png" alt="Silverback mountain gorilla, Bwindi Impenetrable Forest, Uganda" loading="lazy" />
           <div class="ss-img__overlay"></div>
           <div class="jpw-mark">J · P · W</div>
         </div>
         <div class="ss-img" data-index="2">
-          <img src="FieldNotes/Uganda/G3.jpg" alt="Young gorilla swinging from a mossy liana, Bwindi Impenetrable Forest, Uganda" loading="lazy" />
+          <img src="wildlife/image.png" alt="Young gorilla swinging from a mossy liana, Bwindi Impenetrable Forest, Uganda" loading="lazy" />
           <div class="ss-img__overlay"></div>
           <div class="jpw-mark">J · P · W</div>
         </div>
@@ -4364,14 +4357,14 @@
       <div class="scroll-story__text">
 
         <div class="ss-block" data-img="0">
-          <img class="ss-block__mobile-img" src="FieldNotes/Uganda/G1.jpg" alt="Silverback gorilla watching through foliage, Bwindi, Uganda" loading="lazy" />
+          <img class="ss-block__mobile-img" src="wildlife/image.png" alt="Silverback gorilla watching through foliage, Bwindi, Uganda" loading="lazy" />
           <p class="ss-block__label">Into Bwindi</p>
           <p>From Queen Elizabeth, Rob drove us south through the Ishasha sector and on into the high, forested hills of Kigezi — a long road through tea plantations and small towns, climbing steadily out of the Rift Valley. Bwindi Impenetrable Forest is exactly what it sounds like. Dense, steep, trackless in every direction that isn't a carefully maintained ranger path. It holds roughly half the world's remaining mountain gorillas — perhaps 460 individuals across several habituated groups.</p>
           <p>The trek to find the Mubare group took two and a half hours. The terrain was steep and wet, the vegetation closing in until visibility was sometimes less than ten metres. Our ranger moved with the quiet economy of someone who has made this walk hundreds of times and still pays attention every single step.</p>
         </div>
 
         <div class="ss-block" data-img="1">
-          <img class="ss-block__mobile-img" src="FieldNotes/Uganda/G2.jpg" alt="Silverback mountain gorilla, Bwindi Impenetrable Forest, Uganda" loading="lazy" />
+          <img class="ss-block__mobile-img" src="wildlife/image.png" alt="Silverback mountain gorilla, Bwindi Impenetrable Forest, Uganda" loading="lazy" />
           <p class="ss-block__label">The Silverback</p>
           <p>We heard the silverback before we saw him — a low chest beat, once, followed by silence. The ranger stopped, held up one hand, and we stood motionless for perhaps two minutes before she gestured us quietly forward.</p>
           <p>He was perhaps eight metres away, sitting with his back against a trunk, working methodically through a branch of leaves. He was enormous in the way that surprises you even when you have prepared yourself for enormity. The family was spread around him in a loose semicircle — two adult females, three juveniles, a small infant clinging to its mother's back and watching us with enormous dark eyes.</p>
@@ -4379,7 +4372,7 @@
         </div>
 
         <div class="ss-block" data-img="2">
-          <img class="ss-block__mobile-img" src="FieldNotes/Uganda/G3.jpg" alt="Young gorilla swinging from a mossy liana, Bwindi, Uganda" loading="lazy" />
+          <img class="ss-block__mobile-img" src="wildlife/image.png" alt="Young gorilla swinging from a mossy liana, Bwindi, Uganda" loading="lazy" />
           <p class="ss-block__label">Kyambura, Rwakobo &amp; the Nile</p>
           <p>The journey wasn't finished with the gorillas. On the way back east we dropped into Kyambura Gorge — a sunken ribbon of rainforest cut a hundred metres into the savannah floor — for a second chimpanzee trek, this time scrambling down steep, root-laced paths with the calls echoing off the gorge walls above us. Then a night at Rwakobo Rock on the edge of Lake Mburo, zebras grazing between the granite kopjes at dusk.</p>
           <p>The trip ended where the Nile begins. At Wildwaters Lodge, on a forested island in the middle of the river, the white water ran on both sides of the room and the sound of it never stopped. After more than two weeks and a couple of thousand kilometres, Rob delivered us there with the same unhurried precision he had shown at the airport on day one. That is what you learn, travelling with someone who knows the land — not the headline animals, but the texture of a place. Rob John carries Uganda in his head with the same quiet authority that Jou carries the Tuli Block: the knowledge of a life spent paying attention to one piece of the world, and finding it inexhaustible.</p>
@@ -4394,7 +4387,7 @@
       <div class="story-video-wrap">
         <div class="yt-facade" data-vid="q8xGtSMeTx4" role="button" tabindex="0"
              aria-label="Play: Two weeks across Uganda — chimps, gorillas and the road in between">
-          <img src="../img.youtube.com/vi/q8xGtSMeTx4/maxresdefault.jpg"
+          <img src="wildlife/image.png"
                alt="Two weeks across Uganda — chimps, gorillas and the road in between"
                loading="lazy" />
           <button class="yt-play-btn" tabindex="-1" aria-hidden="true">
@@ -4425,20 +4418,20 @@
 
     <!-- Inline gallery -->
     <div class="story-gallery">
-      <div class="story-wm"><img src="FieldNotes/Uganda/MurchisonFalls.jpg"          alt="Murchison Falls — the Nile forced through a narrow gorge, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Uganda/card.jpg"                    alt="Chimpanzee in profile, Kibale Forest National Park, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Uganda/DSC03834-Enhanced-NR.jpg"   alt="Chimpanzee portrait in low forest light, Kibale, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Uganda/DSC03862-Enhanced-NR.jpg"   alt="Chimpanzee resting against a mossy trunk, Kibale Forest, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Uganda/C2.jpg"                      alt="Chimpanzee calling, Kibale Forest National Park, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Uganda/DSC03905-Enhanced-NR.jpg"   alt="Chimpanzee calling from the canopy, Kibale Forest, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Uganda/DSC03734-Edit.jpg"           alt="Chimpanzee portrait, Kibale Forest National Park, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Uganda/DSC03941-Enhanced-NR.jpg"   alt="Chimpanzee in the forest, Kibale, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Uganda/Gorilla_10.jpg"              alt="Silverback mountain gorilla, Bwindi Impenetrable Forest, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Uganda/card20.jpg"                  alt="Mountain gorilla chewing a stem, Bwindi, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Uganda/DSC04895.jpg"                alt="Young mountain gorilla, Bwindi Impenetrable Forest, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Uganda/DSC04913.jpg"                alt="Young gorilla peering from a mossy tree, Bwindi, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Uganda/DSC04673.jpg"                alt="Mountain gorilla feeding, Bwindi Impenetrable Forest, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Uganda/DSC04452-Enhanced-NR.jpg"   alt="Mountain gorilla in black and white, Bwindi, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"          alt="Murchison Falls — the Nile forced through a narrow gorge, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"                    alt="Chimpanzee in profile, Kibale Forest National Park, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"   alt="Chimpanzee portrait in low forest light, Kibale, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"   alt="Chimpanzee resting against a mossy trunk, Kibale Forest, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"                      alt="Chimpanzee calling, Kibale Forest National Park, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"   alt="Chimpanzee calling from the canopy, Kibale Forest, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"           alt="Chimpanzee portrait, Kibale Forest National Park, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"   alt="Chimpanzee in the forest, Kibale, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"              alt="Silverback mountain gorilla, Bwindi Impenetrable Forest, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"                  alt="Mountain gorilla chewing a stem, Bwindi, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"                alt="Young mountain gorilla, Bwindi Impenetrable Forest, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"                alt="Young gorilla peering from a mossy tree, Bwindi, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"                alt="Mountain gorilla feeding, Bwindi Impenetrable Forest, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"   alt="Mountain gorilla in black and white, Bwindi, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
     </div>
 
     <!-- Location map -->
@@ -4447,7 +4440,7 @@
       <h3 class="story-map__heading">Two Weeks Across Uganda</h3>
       <iframe
         class="story-map__frame"
-        src="https://www.openstreetmap.org/export/embed.html?bbox=29.0%2C-1.6%2C34.2%2C2.9&amp;layer=mapnik&amp;marker=0.49%2C30.39"
+        src="wildlife/image.png"
         loading="lazy"
         title="Uganda — Kibale and Bwindi location map"
         allowfullscreen>
@@ -4469,7 +4462,7 @@
 
     <!-- Hero -->
     <div class="story-hero">
-      <img class="story-hero__img" src="FieldNotes/Shoebill/Mabamba/M2.jpg" alt="Shoebill in the tall grass of Mabamba Swamp, Uganda" loading="lazy" />
+      <img class="story-hero__img" src="wildlife/image.png" alt="Shoebill in the tall grass of Mabamba Swamp, Uganda" loading="lazy" />
       <div class="story-hero__overlay"></div>
       <div class="jpw-mark">J · P · W</div>
       <div class="story-hero__content">
@@ -4489,12 +4482,12 @@
     <div class="scroll-story" id="ss-shoebill-1">
       <div class="scroll-story__images" aria-hidden="true">
         <div class="ss-img active" data-index="0">
-          <img src="FieldNotes/Shoebill/Mabamba/M1.jpg" alt="Shoebill standing in the papyrus, Mabamba Swamp, Uganda" loading="lazy" />
+          <img src="wildlife/image.png" alt="Shoebill standing in the papyrus, Mabamba Swamp, Uganda" loading="lazy" />
           <div class="ss-img__overlay"></div>
           <div class="jpw-mark">J · P · W</div>
         </div>
         <div class="ss-img" data-index="1">
-          <img src="FieldNotes/Shoebill/Mabamba/M3.jpg" alt="Purple heron taking flight over Mabamba Swamp, Uganda" loading="lazy" style="object-position: right center;" />
+          <img src="wildlife/image.png" alt="Purple heron taking flight over Mabamba Swamp, Uganda" loading="lazy" style="object-position: right center;" />
           <div class="ss-img__overlay"></div>
           <div class="jpw-mark">J · P · W</div>
         </div>
@@ -4503,7 +4496,7 @@
       <div class="scroll-story__text">
 
         <div class="ss-block" data-img="0">
-          <img class="ss-block__mobile-img" src="FieldNotes/Shoebill/Mabamba/M1.jpg" alt="Shoebill in the papyrus, Mabamba Swamp, Uganda" loading="lazy" />
+          <img class="ss-block__mobile-img" src="wildlife/image.png" alt="Shoebill in the papyrus, Mabamba Swamp, Uganda" loading="lazy" />
           <p class="ss-block__label">A Childhood Dream</p>
           <p>There were three birds — or rather three animals — that brought me to Uganda. The chimpanzee. The mountain gorilla. And the shoebill. The first two are why most people come. The third is a private obsession, the kind of thing you read about as a child and file away as improbable: a metre-tall grey bird with the head of a pterodactyl and an expression of permanent, prehistoric disapproval. <em>Balaeniceps rex</em>. The king of the swamp.</p>
           <p>Rob John knew exactly where to start. Before the chimps, before the gorillas, before any of it, we drove to the edge of Lake Victoria and the papyrus maze of Mabamba Swamp — one of the last reliable strongholds of the shoebill anywhere on earth. We slid into the channels in a low wooden canoe before the heat came up, the water black and still, the papyrus closing overhead. An hour of slow paddling and quiet scanning — and then the guide simply stopped and pointed.</p>
@@ -4511,7 +4504,7 @@
         </div>
 
         <div class="ss-block" data-img="1">
-          <img class="ss-block__mobile-img" src="FieldNotes/Shoebill/Mabamba/M3.jpg" alt="Purple heron taking flight, Mabamba Swamp, Uganda" loading="lazy" style="object-position: right center;" />
+          <img class="ss-block__mobile-img" src="wildlife/image.png" alt="Purple heron taking flight, Mabamba Swamp, Uganda" loading="lazy" style="object-position: right center;" />
           <p class="ss-block__label">A Swamp Full of Birds</p>
           <p>A shoebill is the headline, but Mabamba is one of the richest patches of birdlife in Uganda, and the canoe drifted past one species after another in the early light. A purple heron lifted off the channel ahead of us on slow, deliberate wings. A pied kingfisher hung over the water and dropped, twice, before settling on a papyrus stem to swallow its catch. A broad-billed roller watched the whole performance from a bare branch, lilac-throated and entirely unbothered.</p>
           <p>You come for the king of the swamp. You leave realising the swamp was never only about him.</p>
@@ -4528,17 +4521,17 @@
     <div class="scroll-story" id="ss-shoebill-2">
       <div class="scroll-story__images" aria-hidden="true">
         <div class="ss-img active" data-index="0">
-          <img src="FieldNotes/Shoebill/LakeAlbert/A4.jpg" alt="Shoebill standing in the shoreline vegetation, Lake Albert, Uganda" loading="lazy" />
+          <img src="wildlife/image.png" alt="Shoebill standing in the shoreline vegetation, Lake Albert, Uganda" loading="lazy" />
           <div class="ss-img__overlay"></div>
           <div class="jpw-mark">J · P · W</div>
         </div>
         <div class="ss-img" data-index="1">
-          <img src="FieldNotes/Shoebill/LakeAlbert/A6.jpg" alt="Shoebill raising its wings, head turned, Lake Albert, Uganda" loading="lazy" />
+          <img src="wildlife/image.png" alt="Shoebill raising its wings, head turned, Lake Albert, Uganda" loading="lazy" />
           <div class="ss-img__overlay"></div>
           <div class="jpw-mark">J · P · W</div>
         </div>
         <div class="ss-img" data-index="2">
-          <img src="FieldNotes/Shoebill/LakeAlbert/A2.jpg" alt="Shoebill with wings spread at the water's edge, Lake Albert, Uganda" loading="lazy" />
+          <img src="wildlife/image.png" alt="Shoebill with wings spread at the water's edge, Lake Albert, Uganda" loading="lazy" />
           <div class="ss-img__overlay"></div>
           <div class="jpw-mark">J · P · W</div>
         </div>
@@ -4547,20 +4540,20 @@
       <div class="scroll-story__text">
 
         <div class="ss-block" data-img="0">
-          <img class="ss-block__mobile-img" src="FieldNotes/Shoebill/LakeAlbert/A4.jpg" alt="Shoebill in the shoreline vegetation, Lake Albert, Uganda" loading="lazy" />
+          <img class="ss-block__mobile-img" src="wildlife/image.png" alt="Shoebill in the shoreline vegetation, Lake Albert, Uganda" loading="lazy" />
           <p class="ss-block__label">Unexpected</p>
           <p>I had made my peace with Mabamba. One shoebill, one fleeting encounter, a dream ticked off in the most honest way possible — seen, briefly, on its own terms. I did not expect a second chance. They are not a bird you stumble upon twice.</p>
           <p>Then, days later and a country away, on the shore of Lake Albert in the west, Rob slowed the vehicle without a word and there it was. Another shoebill, hunting the shallows, utterly unbothered by the lake behind it and entirely bothered by us.</p>
         </div>
 
         <div class="ss-block" data-img="1">
-          <img class="ss-block__mobile-img" src="FieldNotes/Shoebill/LakeAlbert/A6.jpg" alt="Shoebill raising its wings, head turned, Lake Albert, Uganda" loading="lazy" />
+          <img class="ss-block__mobile-img" src="wildlife/image.png" alt="Shoebill raising its wings, head turned, Lake Albert, Uganda" loading="lazy" />
           <p class="ss-block__label">Closer, Then Gone</p>
           <p>This time there was no canoe and no papyrus to hide behind — just open shoreline and a bird that knew exactly how much distance it wanted to keep. We edged closer. It let us, for a while, hunting and preening as if we weren't there. Then the head came up, the eye fixed on us, and the wings began to lift — the universal shoebill signal that the audience is over.</p>
         </div>
 
         <div class="ss-block" data-img="2">
-          <img class="ss-block__mobile-img" src="FieldNotes/Shoebill/LakeAlbert/A2.jpg" alt="Shoebill with wings spread, Lake Albert, Uganda" loading="lazy" />
+          <img class="ss-block__mobile-img" src="wildlife/image.png" alt="Shoebill with wings spread, Lake Albert, Uganda" loading="lazy" />
           <p class="ss-block__label">A Few Frames</p>
           <p>It was just as elusive as the first — the same instinct to put distance between itself and the world the instant you commit to it. But this time I was ready, and I managed a few frames as it opened those vast wings and pushed off across the shallows. Not the best shoebill photographs ever made. Just mine, of a second bird I had no right to expect.</p>
           <p class="ss-pullquote">"Two shoebills in one trip. I had hoped, quietly, for the smallest chance of one. The swamp and the lake gave me both — and took them away again just as quickly. That is the deal with a shoebill, and it is a fair one."</p>
@@ -4586,17 +4579,17 @@
 
     <!-- Inline gallery -->
     <div class="story-gallery">
-      <div class="story-wm"><img src="FieldNotes/Shoebill/Mabamba/M1.jpg"    alt="Shoebill in the papyrus, Mabamba Swamp, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Shoebill/Mabamba/M2.jpg"    alt="Shoebill in the tall grass, Mabamba Swamp, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Shoebill/Mabamba/M3.jpg"    alt="Purple heron taking flight, Mabamba Swamp, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Shoebill/Mabamba/M4.jpg"    alt="Pied kingfisher on a papyrus stem, Mabamba Swamp, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Shoebill/Mabamba/M5.jpg"    alt="Broad-billed roller perched on a branch, Mabamba Swamp, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Shoebill/LakeAlbert/A1.jpg" alt="Shoebill standing on the shore of Lake Albert, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Shoebill/LakeAlbert/A4.jpg" alt="Shoebill in the shoreline vegetation, Lake Albert, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Shoebill/LakeAlbert/A6.jpg" alt="Shoebill raising its wings, head turned, Lake Albert, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Shoebill/LakeAlbert/A2.jpg" alt="Shoebill with wings spread, Lake Albert, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Shoebill/LakeAlbert/A3.jpg" alt="Shoebill raising its wings, Lake Albert, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
-      <div class="story-wm"><img src="FieldNotes/Shoebill/LakeAlbert/A5.jpg" alt="Shoebill in flight, Lake Albert, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"    alt="Shoebill in the papyrus, Mabamba Swamp, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"    alt="Shoebill in the tall grass, Mabamba Swamp, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"    alt="Purple heron taking flight, Mabamba Swamp, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"    alt="Pied kingfisher on a papyrus stem, Mabamba Swamp, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png"    alt="Broad-billed roller perched on a branch, Mabamba Swamp, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Shoebill standing on the shore of Lake Albert, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Shoebill in the shoreline vegetation, Lake Albert, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Shoebill raising its wings, head turned, Lake Albert, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Shoebill with wings spread, Lake Albert, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Shoebill raising its wings, Lake Albert, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
+      <div class="story-wm"><img src="wildlife/image.png" alt="Shoebill in flight, Lake Albert, Uganda" loading="lazy" /><div class="jpw-mark">J · P · W</div></div>
     </div>
 
     <!-- Location map -->
@@ -4605,7 +4598,7 @@
       <h3 class="story-map__heading">Mabamba Swamp &amp; Lake Albert · Uganda</h3>
       <iframe
         class="story-map__frame"
-        src="https://www.openstreetmap.org/export/embed.html?bbox=30.8%2C-0.5%2C32.8%2C2.3&amp;layer=mapnik&amp;marker=0.10%2C32.36"
+        src="wildlife/image.png"
         loading="lazy"
         title="Uganda — Mabamba Swamp and Lake Albert location map"
         allowfullscreen>
@@ -4628,7 +4621,7 @@
     <!-- Hero -->
     <div class="guide-profile-hero">
       <div class="guide-profile-hero__img">
-        <img src="Guides/Dan/portrait.jpg" alt="Dan, safari guide at Mashatu Tent Camp, Northern Tuli Block, Botswana, 2023" loading="lazy" />
+        <img src="wildlife/image.png" alt="Dan, safari guide at Mashatu Tent Camp, Northern Tuli Block, Botswana, 2023" loading="lazy" />
       </div>
       <div class="guide-profile-hero__info">
         <p class="guide-profile-hero__eyebrow">Safari Guide · Mashatu Tent Camp · Northern Tuli · Botswana</p>
@@ -4667,8 +4660,8 @@
     </div>
 
     <div class="guide-photo-grid" style="max-width:900px; margin: 2.5rem auto; padding: 0 clamp(1.5rem,5vw,2rem);">
-      <img src="Guides/Dan/portrait.jpg" alt="Dan, safari guide at Mashatu Tent Camp, Botswana 2023" loading="lazy" />
-      <img src="Guides/Dan/us.jpg" alt="John and Dan at Mashatu, Northern Tuli Block, Botswana 2023" loading="lazy" />
+      <img src="wildlife/image.png" alt="Dan, safari guide at Mashatu Tent Camp, Botswana 2023" loading="lazy" />
+      <img src="wildlife/image.png" alt="John and Dan at Mashatu, Northern Tuli Block, Botswana 2023" loading="lazy" />
     </div>
 
     <div class="guide-profile-ctas">
@@ -4695,7 +4688,7 @@
       <!-- Richard · Mashatu -->
       <a class="guide-card" href="guides/richard-mashatu/index.html" data-view="guide-mashatu" onclick="showView('guide-mashatu')" aria-label="Read Richard's story">
         <div class="guide-card__portrait">
-          <img src="Guides/Richard/portrait_new.jpg" alt="Richard, safari guide at Mashatu Tent Camp, Botswana" loading="lazy" />
+          <img src="wildlife/image.png" alt="Richard, safari guide at Mashatu Tent Camp, Botswana" loading="lazy" />
         </div>
         <div class="guide-card__body">
           <p class="guide-card__eyebrow">Mashatu Tent Camp · Northern Tuli · Botswana</p>
@@ -4714,7 +4707,7 @@
       <!-- Jou — Serolo Camp, Botswana -->
       <a class="guide-card" href="guides/jou-tuli-wilderness/index.html" data-view="guide-jou" onclick="showView('guide-jou')" aria-label="Read Jou's story">
         <div class="guide-card__portrait">
-          <img src="Guides/Jou/portrait.jpg" alt="Portrait of Jou, safari guide at Serolo Camp in the Tuli Block, Botswana" loading="lazy" />
+          <img src="wildlife/image.png" alt="Portrait of Jou, safari guide at Serolo Camp in the Tuli Block, Botswana" loading="lazy" />
         </div>
         <div class="guide-card__body">
           <p class="guide-card__eyebrow">Serolo Camp · Tuli Block · Botswana</p>
@@ -4734,7 +4727,7 @@
       <!-- Dan · Mashatu 2023 -->
       <a class="guide-card" href="guides/dan-mashatu-2023/index.html" data-view="guide-dan" onclick="showView('guide-dan')" aria-label="Read Dan's story">
         <div class="guide-card__portrait">
-          <img src="Guides/Dan/portrait.jpg" alt="Dan, safari guide at Mashatu Tent Camp, Botswana, 2023" loading="lazy" />
+          <img src="wildlife/image.png" alt="Dan, safari guide at Mashatu Tent Camp, Botswana, 2023" loading="lazy" />
         </div>
         <div class="guide-card__body">
           <p class="guide-card__eyebrow">Mashatu Tent Camp · Northern Tuli · Botswana · 2023</p>
@@ -4753,7 +4746,7 @@
       <!-- Rob John · Uganda -->
       <a class="guide-card" href="guides/rob-john-uganda/index.html" data-view="guide-rob" onclick="showView('guide-rob')" aria-label="Read Rob John's story">
         <div class="guide-card__portrait">
-          <img src="Guides/Rob/portrait.jpg" alt="Rob John, driver guide, Uganda" loading="lazy" />
+          <img src="wildlife/image.png" alt="Rob John, driver guide, Uganda" loading="lazy" />
         </div>
         <div class="guide-card__body">
           <p class="guide-card__eyebrow">Driver Guide · Kibale Forest &amp; Bwindi · Uganda</p>
@@ -4783,7 +4776,7 @@
     <!-- Hero -->
     <div class="guide-profile-hero">
       <div class="guide-profile-hero__img">
-        <img src="Guides/Jou/portrait.jpg" alt="Jou, safari guide at Serolo Camp, Tuli Block, Botswana" loading="lazy" />
+        <img src="wildlife/image.png" alt="Jou, safari guide at Serolo Camp, Tuli Block, Botswana" loading="lazy" />
       </div>
       <div class="guide-profile-hero__info">
         <p class="guide-profile-hero__eyebrow">Safari Guide · Serolo Camp · Tuli Block · Botswana</p>
@@ -4817,8 +4810,8 @@
       </div>
 
       <div class="guide-photo-grid">
-        <img src="Guides/Jou/Jou_1.jpg" alt="Jou, safari guide in the Tuli Block, Botswana" loading="lazy" />
-        <img src="Guides/Jou/Jou_2.jpg" alt="Jou tracking wildlife in the Tuli Block, Botswana" loading="lazy" />
+        <img src="wildlife/image.png" alt="Jou, safari guide in the Tuli Block, Botswana" loading="lazy" />
+        <img src="wildlife/image.png" alt="Jou tracking wildlife in the Tuli Block, Botswana" loading="lazy" />
       </div>
 
       <div class="guide-profile-ctas">
@@ -4840,7 +4833,7 @@
     <!-- Hero -->
     <div class="guide-profile-hero">
       <div class="guide-profile-hero__img">
-        <img src="Guides/Richard/portrait_new.jpg" alt="Richard, safari guide at Mashatu Tent Camp, Northern Tuli Block, Botswana" loading="lazy" />
+        <img src="wildlife/image.png" alt="Richard, safari guide at Mashatu Tent Camp, Northern Tuli Block, Botswana" loading="lazy" />
       </div>
       <div class="guide-profile-hero__info">
         <p class="guide-profile-hero__eyebrow">Safari Guide &amp; Tracker · Mashatu Tent Camp · Northern Tuli · Botswana</p>
@@ -4874,17 +4867,17 @@
       </div>
 
       <div class="guide-photo-grid">
-        <img src="Guides/Richard/Richard_2.jpg" alt="Richard, safari guide at Mashatu Tent Camp, Northern Tuli Block" loading="lazy" />
-        <img src="Guides/Richard/Richard_3.jpg" alt="Richard in the field at Mashatu, Botswana" loading="lazy" />
-        <img src="Guides/Richard/us.jpg" alt="John and Richard at Mashatu Tent Camp, Northern Tuli Block, Botswana" loading="lazy" />
-        <img src="Guides/Richard/bushcoffee.jpg" alt="Bush coffee at Mashatu Tent Camp, Northern Tuli Block, Botswana" loading="lazy" />
-        <img src="Guides/Richard/Sky.jpg" alt="Sky over the Northern Tuli Block, Mashatu, Botswana" loading="lazy" />
+        <img src="wildlife/image.png" alt="Richard, safari guide at Mashatu Tent Camp, Northern Tuli Block" loading="lazy" />
+        <img src="wildlife/image.png" alt="Richard in the field at Mashatu, Botswana" loading="lazy" />
+        <img src="wildlife/image.png" alt="John and Richard at Mashatu Tent Camp, Northern Tuli Block, Botswana" loading="lazy" />
+        <img src="wildlife/image.png" alt="Bush coffee at Mashatu Tent Camp, Northern Tuli Block, Botswana" loading="lazy" />
+        <img src="wildlife/image.png" alt="Sky over the Northern Tuli Block, Mashatu, Botswana" loading="lazy" />
       </div>
 
       <!-- Commando section -->
       <div style="border-top: 1px solid var(--border); margin: 3rem 0 2rem; padding-top: 2.5rem; display:grid; grid-template-columns: 220px 1fr; gap: 2.5rem; align-items: start;">
         <div style="overflow:hidden; border-radius:10px;">
-          <img src="Guides/Richard/commando.jpg" alt="Commando, tracker at Mashatu Tent Camp, Northern Tuli Block, Botswana" loading="lazy" style="width:100%; display:block; aspect-ratio:3/4; object-fit:cover;" />
+          <img src="wildlife/image.png" alt="Commando, tracker at Mashatu Tent Camp, Northern Tuli Block, Botswana" loading="lazy" style="width:100%; display:block; aspect-ratio:3/4; object-fit:cover;" />
         </div>
         <div>
           <p class="guide-card__eyebrow" style="margin-bottom:1.25rem;">Tracker · Mashatu Tent Camp · Northern Tuli · Botswana</p>
@@ -4924,7 +4917,7 @@
     <!-- Hero -->
     <div class="guide-profile-hero">
       <div class="guide-profile-hero__img">
-        <img src="Guides/Rob/portrait.jpg" alt="Rob John, driver guide, Uganda" loading="lazy" />
+        <img src="wildlife/image.png" alt="Rob John, driver guide, Uganda" loading="lazy" />
       </div>
       <div class="guide-profile-hero__info">
         <p class="guide-profile-hero__eyebrow">Driver Guide · Uganda</p>
@@ -5085,13 +5078,13 @@
     <div class="footer-bottom">
       <p>&copy; <span id="year"></span> John's Photography World. All rights reserved.</p>
       <nav class="footer-nav" aria-label="Footer navigation">
-        <a href="wildlife/index.html" onclick="showView('wildlife')">Wildlife</a>
-        <a href="street/index.html"   onclick="showView('street')"  >Street</a>
-        <a href="travel/index.html"   onclick="showView('travel')"  >Travel</a>
-        <a href="fieldnotes/index.html"  onclick="showView('stories')" >Field Notes</a>
-        <a href="guides/index.html"   onclick="showView('guides')"  >Guides</a>
-        <a href="about/index.html"    onclick="showView('about')"   >About</a>
-        <a href="cookie-policy/index.html"  onclick="showView('cookies')" >Cookie Policy</a>
+        <a onclick="showView('wildlife')">Wildlife</a>
+        <a onclick="showView('street')"  >Street</a>
+        <a onclick="showView('travel')"  >Travel</a>
+        <a onclick="showView('stories')" >Field Notes</a>
+        <a onclick="showView('guides')"  >Guides</a>
+        <a onclick="showView('about')"   >About</a>
+        <a onclick="showView('cookies')" >Cookie Policy</a>
       </nav>
     </div>
   </footer>
@@ -5468,7 +5461,7 @@
 
   <!-- Lightbox carousel -->
   <div id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
-    <img id="lightbox-img" src="#" alt="" />
+    <img id="lightbox-img" src="wildlife/image.png" alt="" />
     <button class="lb-btn" id="lb-prev" aria-label="Previous">&#8592;</button>
     <button class="lb-btn" id="lb-next" aria-label="Next">&#8594;</button>
     <button id="lb-close" aria-label="Close">&#10005;</button>
