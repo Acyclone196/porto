@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/><base href="/"/><title>Street Photography · People & Place | Kirnature</title>
+<meta property="og:title" content="Street Photography · Kirnature"/><meta property="og:image" content="og-image.jpg"/><meta name="twitter:card" content="summary_large_image"/>
+<link rel="preconnect" href="https://fonts.googleapis.com/"/><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&amp;family=Space+Grotesk:wght@400;500;600;700&amp;family=Nunito+Sans:wght@700;800;900&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"/>
+<noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&amp;family=Space+Grotesk:wght@400;500;600;700&amp;family=Nunito+Sans:wght@700;800;900&amp;display=swap" rel="stylesheet"/></noscript>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav id="nav" data-theme="light" class="scrolled" role="navigation" aria-label="Main navigation">
+<div class="nav-logo"><a href="index.html" style="display:flex;align-items:center;gap:0.75rem;color:inherit;text-decoration:none;"><svg class="logo-mark" width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="16" cy="16" r="14"/><path d="M16 8L19 16L16 24L13 16Z"/><circle cx="16" cy="16" r="2"/></svg><span class="logo-text"><span class="logo-name">K · P · W</span><span class="logo-sub">Photography</span></span></a></div>
+<ul class="nav-links">
+<li class="nav-has-dropdown"><a class="nav-link" href="wildlife.html">Wildlife<svg class="nav-chevron" width="9" height="9" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M2 3.5l3 3 3-3"/></svg></a><div class="nav-dropdown"><a class="nav-dropdown__item" href="wildlife.html">All Wildlife</a><div class="nav-dropdown__divider"></div><a class="nav-dropdown__item" href="bigcats.html">Nature Wildlife</a><a class="nav-dropdown__item" href="pantanal.html">Animal</a></div></li>
+<li class="nav-has-dropdown"><a class="nav-link active" href="street.html">Society<svg class="nav-chevron" width="9" height="9" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M2 3.5l3 3 3-3"/></svg></a><div class="nav-dropdown"><a class="nav-dropdown__item" href="street.html">All Society</a><div class="nav-dropdown__divider"></div><a class="nav-dropdown__item" href="street-india.html">Society</a></div></li>
+<li><a class="nav-link" href="travel.html">Travel</a></li>
+<li class="nav-has-dropdown"><a class="nav-link" href="fieldnotes.html">Field Notes<svg class="nav-chevron" width="9" height="9" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M2 3.5l3 3 3-3"/></svg></a><div class="nav-dropdown nav-dropdown--align-right"><a class="nav-dropdown__item" href="fieldnotes.html">All Field Notes</a><div class="nav-dropdown__divider"></div><a class="nav-dropdown__item" href="story-botswana.html">Brown Hyenas</a><a class="nav-dropdown__item" href="story-mashatu.html">Land of Cats</a><a class="nav-dropdown__item" href="story-mashatu-iphone.html">No Camera 2023</a><a class="nav-dropdown__item" href="story-pantanal.html">Searching for Jaguar</a><a class="nav-dropdown__item" href="story-uganda.html">Chimps &amp; Gorillas</a><a class="nav-dropdown__item" href="story-shoebill.html">In Search of the Shoebill</a></div></li>
+<li><a class="nav-link" href="about.html">About</a></li>
+</ul>
+<div class="nav-social"><a href="https://www.instagram.com/johnsphotography.world/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/></svg></a><a href="https://www.linkedin.com/in/johnjanson/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a></div>
+<button class="music-btn" id="music-btn" aria-label="Play background music"><svg class="icon-note" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg><span class="icon-bars"><span class="bar"></span><span class="bar"></span><span class="bar"></span><span class="bar"></span></span></button>
+<audio id="bg-music" loop preload="none"><source src="music/Olsen%20olsen%20-%20Sigur%20R%C3%B3s.mp3" type="audio/mpeg"></audio>
+<button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+</nav>
+<div class="mobile-menu" id="mobile-menu" role="dialog" aria-hidden="true">
+<a class="nav-link" href="wildlife.html">Wildlife</a><a class="nav-link nav-link-sub" href="bigcats.html">Nature Wildlife</a><a class="nav-link nav-link-sub" href="pantanal.html">Animal</a>
+<a class="nav-link active" href="street.html">Street</a><a class="nav-link nav-link-sub" href="street-india.html">Old Delhi</a>
+<a class="nav-link" href="travel.html">Travel</a>
+<a class="nav-link" href="fieldnotes.html">Field Notes</a><a class="nav-link nav-link-sub" href="story-botswana.html">Brown Hyenas</a><a class="nav-link nav-link-sub" href="story-mashatu.html">Land of Cats</a><a class="nav-link nav-link-sub" href="story-mashatu-iphone.html">No Camera 2023</a><a class="nav-link nav-link-sub" href="story-pantanal.html">Searching for Jaguar</a><a class="nav-link nav-link-sub" href="story-uganda.html">Chimps &amp; Gorillas</a><a class="nav-link nav-link-sub" href="story-shoebill.html">Shoebill</a>
+<a class="nav-link" href="guides.html">Guides</a><a class="nav-link nav-link-sub" href="guide-jou.html">Jou</a><a class="nav-link nav-link-sub" href="guide-mashatu.html">Richard</a><a class="nav-link nav-link-sub" href="guide-dan.html">Dan</a><a class="nav-link nav-link-sub" href="guide-rob.html">Rob John</a>
+<a class="nav-link" href="about.html">About</a>
+<button class="music-btn music-btn-mobile" id="music-btn-mobile" aria-label="Play background music" style="background:none;border:none;cursor:pointer;color:var(--text-muted);font-size:0.8rem;letter-spacing:0.08em;text-transform:uppercase;display:flex;align-items:center;gap:0.5rem;padding:0.25rem 0;width:100%;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg><span id="music-label-mobile">Music</span></button>
+<div class="mobile-menu-social"><a href="https://www.instagram.com/johnsphotography.world/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/></svg></a><a href="https://www.linkedin.com/in/johnjanson/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a></div>
+</div>
+
+<div id="view-street" class="gallery-view">
+<div class="gallery-header">
+<p class="gallery-eyebrow">Gallery</p>
+<h2 class="gallery-title">The <em>Street</em></h2>
+<p class="gallery-desc">Geometry of shadows, the blur of strangers, and the quiet humanity found at every corner of every city.</p>
+</div>
+<div class="gallery-masonry" role="list">
+<div class="gallery-item"><img src="wildlife/image.png" alt="Street photography in Bangkok, Thailand" loading="lazy" /></div>
+<div class="gallery-item"><img src="wildlife/image.png" alt="Urban street scene with natural light" loading="lazy" /></div>
+<div class="gallery-item"><img src="wildlife/image.png" alt="Street photography capturing everyday city life" loading="lazy" /></div>
+<div class="gallery-item"><img src="wildlife/image.png" alt="Candid street photography, geometry and shadow" loading="lazy" /></div>
+<div class="gallery-item"><img src="wildlife/image.png" alt="Street scene with people and natural urban light" loading="lazy" /></div>
+<div class="gallery-item"><img src="wildlife/image.png" alt="Night street photography in Bangkok, Thailand" loading="lazy" /></div>
+<div class="gallery-item"><img src="wildlife/image.png" alt="Bangkok street life, people and motion" loading="lazy" /></div>
+<div class="gallery-item"><img src="wildlife/image.png" alt="Street photography in India, candid human moment" loading="lazy" /></div>
+<div class="gallery-item"><img src="wildlife/image.png" alt="Street scene in India with natural light" loading="lazy" /></div>
+<div class="gallery-item"><img src="wildlife/image.png" alt="Candid street photography in an Asian city" loading="lazy" /></div>
+<div class="gallery-item"><img src="wildlife/image.png" alt="Street photography, light and shadow in an urban setting" loading="lazy" /></div>
+<div class="gallery-item"><img src="wildlife/image.png" alt="Street portrait or scene, natural available light" loading="lazy" /></div>
+<div class="gallery-item"><img src="wildlife/image.png" alt="Urban street photography, people in motion" loading="lazy" /></div>
+<div class="gallery-item"><img src="wildlife/image.png" alt="Street photography, city life captured candidly" loading="lazy" /></div>
+<div class="gallery-item"><img src="wildlife/image.png" alt="Street scene with human element and natural light" loading="lazy" /></div>
+</div>
+</div>
+
+<footer id="site-footer">
+<div class="footer-inner">
+<div class="footer-logo"><a href="index.html" style="display:flex;align-items:center;gap:0.65rem;color:inherit;text-decoration:none;"><svg width="26" height="26" viewBox="0 0 30 30" fill="none" stroke="currentColor" stroke-width="1.35"><circle cx="15" cy="15" r="13"/><circle cx="15" cy="15" r="5"/><line x1="15" y1="10" x2="12.5" y2="2"/><line x1="15" y1="10" x2="17.5" y2="2"/><line x1="19.3" y1="12.5" x2="27.5" y2="10"/><line x1="19.3" y1="17.5" x2="27.5" y2="20"/><line x1="15" y1="20" x2="17.5" y2="28"/><line x1="15" y1="20" x2="12.5" y2="28"/><line x1="10.7" y1="17.5" x2="2.5" y2="20"/><line x1="10.7" y1="12.5" x2="2.5" y2="10"/></svg><span class="logo-text"><span class="logo-name">K · P · W</span><span class="logo-sub">Photography</span></span></a></div>
+<div class="footer-social"><a href="https://www.instagram.com/johnsphotography.world/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram"><svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/></svg></a><a href="https://www.linkedin.com/in/johnjanson/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn"><svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a></div>
+</div>
+<div class="footer-bottom"><p>&copy; <span id="year"></span> Kirnature Photography. All rights reserved.</p>
+<nav class="footer-nav"><a href="wildlife.html">Wildlife</a><a href="street.html">Street</a><a href="travel.html">Travel</a><a href="fieldnotes.html">Field Notes</a><a href="guides.html">Guides</a><a href="about.html">About</a><a href="cookie-policy.html">Cookie Policy</a></nav></div>
+</footer>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+const nav=document.getElementById('nav'),hamburger=document.getElementById('hamburger'),mobileMenu=document.getElementById('mobile-menu');
+function updateNav(){nav.classList.toggle('scrolled',window.scrollY>30);}
+window.addEventListener('scroll',updateNav,{passive:true});updateNav();
+if(hamburger&&mobileMenu){hamburger.addEventListener('click',function(){const o=this.classList.toggle('open');mobileMenu.classList.toggle('open',o);mobileMenu.setAttribute('aria-hidden',!o);this.setAttribute('aria-expanded',o);});
+mobileMenu.querySelectorAll('a').forEach(l=>{l.addEventListener('click',()=>{hamburger.classList.remove('open');mobileMenu.classList.remove('open');mobileMenu.setAttribute('aria-hidden','true');hamburger.setAttribute('aria-expanded','false');});});}
+const mb=document.getElementById('music-btn'),mbm=document.getElementById('music-btn-mobile'),bg=document.getElementById('bg-music'),mlm=document.getElementById('music-label-mobile');let ip=false;
+function tm(){if(!bg)return;if(ip){bg.pause();ip=false;if(mb)mb.classList.remove('playing');if(mlm)mlm.textContent='Music';}else{bg.play().catch(()=>{});ip=true;if(mb)mb.classList.add('playing');if(mlm)mlm.textContent='Playing';}}
+if(mb)mb.addEventListener('click',tm);if(mbm)mbm.addEventListener('click',tm);
+requestAnimationFrame(()=>{const e=document.querySelector('.gallery-header');if(e){e.classList.remove('visible');requestAnimationFrame(()=>e.classList.add('visible'));}});
+// Lightbox + Cookie (same as other pages)
+document.body.insertAdjacentHTML('beforeend','<div id="lightbox"><img id="lightbox-img" src="" alt=""/><button id="lb-prev" class="lb-btn">‹</button><button id="lb-next" class="lb-btn">›</button><button id="lb-close">✕</button><span id="lb-counter"></span></div>');
+const lb=document.getElementById('lightbox'),li=document.getElementById('lightbox-img'),lp=document.getElementById('lb-prev'),ln=document.getElementById('lb-next'),lc=document.getElementById('lb-close'),lct=document.getElementById('lb-counter');let lim=[],lix=0;
+document.addEventListener('click',function(e){const it=e.target.closest('.gallery-item');if(!it)return;const p=it.closest('.gallery-masonry');if(!p)return;lim=Array.from(p.querySelectorAll('.gallery-item img'));lix=lim.indexOf(it.querySelector('img'));if(lix===-1)return;lb.classList.add('open');document.body.style.overflow='hidden';const img=lim[lix];li.src=img.src;li.alt=img.alt;lct.textContent=(lix+1)+' / '+lim.length;});
+if(lc)lc.addEventListener('click',function(){lb.classList.remove('open');document.body.style.overflow='';});
+if(lp)lp.addEventListener('click',function(){if(lim.length){lix=(lix-1+lim.length)%lim.length;const img=lim[lix];li.src=img.src;li.alt=img.alt;lct.textContent=(lix+1)+' / '+lim.length;}});
+if(ln)ln.addEventListener('click',function(){if(lim.length){lix=(lix+1)%lim.length;const img=lim[lix];li.src=img.src;li.alt=img.alt;lct.textContent=(lix+1)+' / '+lim.length;}});
+document.addEventListener('keydown',function(e){if(!lb.classList.contains('open'))return;if(e.key==='Escape'){lb.classList.remove('open');document.body.style.overflow='';}if(e.key==='ArrowLeft'&&lim.length){lix=(lix-1+lim.length)%lim.length;const img=lim[lix];li.src=img.src;li.alt=img.alt;lct.textContent=(lix+1)+' / '+lim.length;}if(e.key==='ArrowRight'&&lim.length){lix=(lix+1)%lim.length;const img=lim[lix];li.src=img.src;li.alt=img.alt;lct.textContent=(lix+1)+' / '+lim.length;}});
+if(lb)lb.addEventListener('click',function(e){if(e.target===lb){lb.classList.remove('open');document.body.style.overflow='';}});
+(function(){if(localStorage.getItem('cookieConsent')!==null)return;const b='<div id="cookie-banner" role="dialog"><div class="cb-text"><strong>🍪 Just the essentials</strong><p>This site uses minimal cookies. <a href="cookie-policy.html">Learn more</a>.</p></div><div class="cb-actions"><button class="cb-btn cb-btn-accept" data-cb-action="accept">Accept All</button><button class="cb-btn cb-btn-reject" data-cb-action="reject">Reject Optional</button></div></div>';
+document.body.insertAdjacentHTML('beforeend',b);const bn=document.getElementById('cookie-banner');if(!bn)return;setTimeout(()=>bn.classList.add('visible'),800);
+bn.addEventListener('click',function(e){const btn=e.target.closest('[data-cb-action]');if(!btn)return;localStorage.setItem('cookieConsent',btn.dataset.cbAction);bn.classList.remove('visible');setTimeout(()=>bn.remove(),500);});}());
+</script>
+</body>
+</html>
+
