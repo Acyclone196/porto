@@ -387,7 +387,6 @@
         <a href="fieldnotes.html">Field Notes</a>
         <a href="guides.html">Guides</a>
         <a href="about.html">About</a>
-        <a href="cookie-policy.html">Cookie Policy</a>
       </nav>
     </div>
   </footer>
@@ -610,38 +609,6 @@
     if (lightbox) lightbox.addEventListener('click', function(e) {
       if (e.target === lightbox) closeLightbox();
     });
-
-    // ── Cookie consent banner ────────────────────────────────────────────
-    (function() {
-      const bannerHTML = `
-        <div id="cookie-banner" role="dialog" aria-label="Cookie consent">
-          <div class="cb-text">
-            <strong>🍪 Just the essentials</strong>
-            <p>This site uses minimal cookies for basic functionality, optional analytics, and to deliver a better browsing experience. <a href="cookie-policy.html">Learn more</a>.</p>
-          </div>
-          <div class="cb-actions">
-            <button class="cb-btn cb-btn-accept" data-cb-action="accept">Accept All</button>
-            <button class="cb-btn cb-btn-reject" data-cb-action="reject">Reject Optional</button>
-          </div>
-        </div>`;
-      document.body.insertAdjacentHTML('beforeend', bannerHTML);
-
-      const banner = document.getElementById('cookie-banner');
-      if (!banner) return;
-
-      if (localStorage.getItem('cookieConsent') !== null) return;
-
-      setTimeout(() => banner.classList.add('visible'), 800);
-
-      banner.addEventListener('click', function(e) {
-        const btn = e.target.closest('[data-cb-action]');
-        if (!btn) return;
-        const action = btn.dataset.cbAction;
-        localStorage.setItem('cookieConsent', action);
-        banner.classList.remove('visible');
-        setTimeout(() => banner.remove(), 500);
-      });
-    }());
 
     // ── Scroll Story intersection observer ────────────────────────────────
     (function() {
